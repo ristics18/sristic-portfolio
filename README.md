@@ -1,3 +1,3 @@
-Srdan Ristic Portfolio
+# Srdan Ristic Portfolio
 
 This is my personal website
