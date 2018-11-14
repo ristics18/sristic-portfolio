@@ -21,10 +21,10 @@ export class HomeComponent implements OnInit {
    */
   ngOnInit() {
     // Show all users when home page loads up
-    this.data.getUsers().subscribe(data => {
-      this.users = data;
-      console.log(this.users);
-    })
+    // this.data.getUsers().subscribe(data => {
+    //   this.users = data;
+    //   console.log(this.users);
+    // })
   }
 
 }

@@ -1,34 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-
-body, html {
-  height: 100%;
-  margin: 0 auto;
-}
+@import "~src/assets/variables/variables.scss";
 
 body {
-  font-family: 'Montserrat';
-  font-size: 18px;
+  padding-top: 54px;
+  font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
+  background-color: $bg-color;
 }
 
-a {
-  text-decoration: none;
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 1.3em;
-  display: grid;
-  grid-template-columns: 30% auto;
-
-  a {
-    color: white;
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
   }
 }
 
-section {
-  width: 80%;
-  margin: 0 auto;
-  padding: 2em;
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.whiteIcons {
+  color: white;
+}
+
+/**
+Overriding Bootstrap properties
+ */
+.bg-dark {
+  background-color: $nav-bg-color !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
