@@ -1,0 +1,60 @@
+@import "~src/assets/variables/variables.scss";
+
+.page-footer{
+  background-color: $home-bg-color;
+  color: $white-color;
+}
+
+.footer-copyright{
+  background-color: $nav-bg-color;
+  color: $white-color;
+}
+
+.btn-floating{
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+  width: 53px;
+  height: 53px;
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: inherit;
+}
+
+.btn-github {
+   background-color: #24292e;
+   color: #fff;
+ }
+
+.btn-linkedin{
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btn-stackoverflow{
+  background-color: #dd4b39;
+  color: #fff;
+}
+
+.btn-slack{
+  background-color: #555459;
+  color: #fff;
+}
+
+.footer-link{
+  line-height: 53px;
+}
+
+.footer-btn-hover:hover{
+  opacity: 0.7;
+}
+
+.list-unstyled a{
+  color: $white-color;
+}

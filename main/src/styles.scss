@@ -11,6 +11,101 @@ body {
   padding-right: 0;
 }
 
+@import "~src/assets/variables/variables.scss";
+
+///////////////////////
+//      Portfolio    //
+///////////////////////
+.portfolio .row{
+  background-color: $home-bg-color !important;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.name{
+  color: $white-color;
+  font-size: 48px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: 300;
+  color: $title-color;
+  margin-bottom: 30px;
+}
+
+.profile{
+  max-width: 800px;
+  margin: 0 auto;
+  color: $white-color;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+///////////////////////
+//      Education    //
+///////////////////////
+.section{
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  padding: 45px;
+  background: $white-color;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.section-title{
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-size: 30px;
+  text-align: center;
+  color: $section-color;
+}
+
+.degree {
+  font-size: 18px;
+  color: $degree-color;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.education-body {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.education-section .item {
+  margin-bottom: 45px;
+}
+
+.time {
+  color: $time-color;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: $desc-color;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -26,16 +121,16 @@ body {
 }
 
 .whiteIcons {
-  color: white;
+  color: $white-color;
 }
 
-/**
-Overriding Bootstrap properties
- */
+////////////////////////////
+//  Overriding Bootstrap  //
+////////////////////////////
 .bg-dark {
   background-color: $nav-bg-color !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: $white-color;
 }
