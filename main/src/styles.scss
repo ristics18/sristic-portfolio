@@ -1,9 +1,16 @@
 @import "~src/assets/variables/variables.scss";
 
+///////////////////////
+//      General      //
+///////////////////////
 body {
   padding-top: 54px;
   font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
   background-color: $bg-color;
+}
+
+h1 {
+  color: $white-color;
 }
 
 .container-fluid {
@@ -11,48 +18,70 @@ body {
   padding-right: 0;
 }
 
-@import "~src/assets/variables/variables.scss";
-
-///////////////////////
-//      Portfolio    //
-///////////////////////
-.portfolio .row{
-  background-color: $home-bg-color !important;
-  padding-top: 30px;
-  margin: 0;
-}
-
-.name{
-  color: $white-color;
-  font-size: 48px;
-  margin-bottom: 15px;
-  letter-spacing: 0.5px;
-}
-
-.title{
-  font-size: 32px;
-  font-weight: 300;
-  color: $title-color;
-  margin-bottom: 30px;
-}
-
-.profile{
-  max-width: 800px;
-  margin: 0 auto;
-  color: $white-color;
-}
-
 .row {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
 
 ///////////////////////
-//      Education    //
+//  Header - Section //
+///////////////////////
+.header-section .row{
+  background-color: $home-bg-color !important;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.header-section-name{
+  color: $white-color;
+  font-size: 48px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.header-section-title{
+  font-size: 32px;
+  font-weight: 300;
+  color: $title-color;
+  margin-bottom: 30px;
+}
+
+.header-section-main-text{
+  max-width: 800px;
+  margin: 0 auto;
+  color: $white-color;
+}
+
+///////////////////////
+//  Header - Footer  //
+///////////////////////
+.header-section-footer {
+  background: $resume-btn-color;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-section-footer ul {
+  margin-bottom: 0;
+}
+
+.header-section-footer li a {
+  color: $title-color;
+  font-size: 16px;
+}
+
+.header-section-footer li a:hover {
+  color: $white-color;
+}
+
+.whiteIcons {
+  color: $white-color;
+}
+
+///////////////////////
+//    Main Section   //
 ///////////////////////
 .section{
   -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
@@ -80,48 +109,39 @@ body {
   color: $section-color;
 }
 
-.degree {
+.main-section-title {
   font-size: 18px;
   color: $degree-color;
   margin-top: 0;
   margin-bottom: 0px;
 }
 
-.education-body {
+.main-section-subtitle {
   margin-bottom: 0px;
   font-size: 16px;
   font-weight: 300;
 }
 
-.education-section .item {
+.main-section .item {
   margin-bottom: 45px;
 }
 
-.time {
+.main-section-date {
   color: $time-color;
   margin-bottom: 15px;
 }
 
-.desc {
+.main-section-desc {
   color: $desc-color;
 }
 
+///////////////////////
+//      Responsive   //
+///////////////////////
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
-}
-
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
-.pagination {
-  margin-bottom: 30px;
-}
-
-.whiteIcons {
-  color: $white-color;
 }
 
 ////////////////////////////

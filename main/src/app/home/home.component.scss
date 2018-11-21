@@ -1,12 +1,9 @@
 @import "~src/assets/variables/variables.scss";
-///////////////////////
-//       General     //
-///////////////////////
-h1 {
-  color: $white-color;
-}
 
-.profile-image{
+///////////////////////
+//       Header      //
+///////////////////////
+.header-section-profile-image{
   width: 270px;
 }
 
@@ -58,30 +55,12 @@ h1 {
 }
 
 ///////////////////////
-//      Contact      //
-///////////////////////
-.contact-info {
-  background: $resume-btn-color;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.contact-info ul {
-  margin-bottom: 0;
-}
-
-.contact-info li a {
-  color: $title-color;
-  font-size: 16px;
-}
-
-.contact-info li a:hover {
-  color: $white-color;
-}
-
-///////////////////////
 //       Skills      //
 ///////////////////////
+
+.skills-overview{
+  margin-bottom: 3rem;
+}
 
 .skills-title{
   margin-top: 0;
@@ -105,10 +84,6 @@ h1 {
   color: #434E5E;
   font-size: 22px;
   margin-top: 15px;
-}
-
-.holdon{
-  padding-left: 3em;
 }
 
 .pl-5, .px-5 {
@@ -138,11 +113,11 @@ h1 {
   color: $skills-cat;
 }
 
-.skills-overview{
-  margin-bottom: 3rem;
-}
+///////////////////////
+//   Certifications  //
+///////////////////////
 
-.certification-img{
+.certification-img {
   text-align: center;
   margin-bottom: 25px;
 }
