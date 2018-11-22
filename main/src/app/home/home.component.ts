@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {DataService} from '../data.service';
 
 @Component({
   selector: 'app-home',
@@ -10,11 +9,7 @@ export class HomeComponent implements OnInit {
 
   users: Object;
 
-  /**
-   * Dependency injection DataService
-   * @param data
-   */
-  constructor(private data: DataService) { }
+  constructor() { }
 
   /**
    * Will get executed whenever this component loads up

@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
+import { ErrorComponent } from './errors/error/error.component';
+import { ProjectViewComponent } from './project-view/project-view.component';
+import { PageNotFoundComponent } from './errors/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     LoginComponent,
     ProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    ErrorComponent,
+    ProjectViewComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

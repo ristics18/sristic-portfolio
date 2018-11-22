@@ -1,0 +1,13 @@
+@import "../../../assets/variables/variables";
+
+h1{
+  color: $section-color;
+}
+
+.errorTitle{
+  color: red;
+}
+
+.errorSubTitle{
+  text-align: center;
+}

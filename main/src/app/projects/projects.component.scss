@@ -3,3 +3,32 @@
 h1{
   color: $section-color;
 }
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.checkItOutBtn{
+  float: right;
+}
+
+.checkItOutBtn a{
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.checkItOutBtn a:hover{
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.projectName{
+  color: #007bff;
+}
+.projectDate{
+  color: #8a8a8a;
+}
+
+.projectDesc{
+  color: #444;
+}
