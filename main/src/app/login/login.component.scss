@@ -1,0 +1,20 @@
+@import "~src/assets/variables/variables.scss";
+
+h1{
+  color: $section-color;
+}
+
+.loginBtn {
+  background-color: #00a5bb;
+  border-color: #00a5bb;
+}
+
+.loginBtn:hover {
+  background-color: #007888;
+  border-color: #007888;
+}
+
+.alert{
+  margin-top: 10px;
+}
+

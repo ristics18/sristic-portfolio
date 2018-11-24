@@ -1,16 +1,16 @@
 <div class="header-section">
     <div class="row">
       <div class="resume">
-        <a href="" class="resumeBtn"><i class="fa fa-download" aria-hidden="true"></i> Download my resume</a>
+        <a href="assets/files/{{myResume}}" target="_blank" class="resumeBtn"><i class="fa fa-download" aria-hidden="true" download></i> Download my resume</a>
       </div>
       <div class="col-md-12">
         <div class="intro">
           <div class="container text-center">
-            <img class="header-section-profile-image" src="assets/img/profile.png" alt="">
-            <h1 class="header-section-name">Srdan Ristic</h1>
-            <div class="header-section-title">Full Stack Developer</div>
+            <img class="header-section-profile-image" src="assets/img/{{myImage}}" alt="">
+            <h1 class="header-section-name">{{myName}}</h1>
+            <div class="header-section-title">{{myTitle}}</div>
             <div class="header-section-main-text">
-              <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
+              <p>{{mySummary}}</p>
             </div>
           </div>
         </div>
@@ -22,13 +22,13 @@
   <div class="container text-center">
     <ul class="list-inline">
       <li class="email list-inline-item">
-        <i class="fa fa-envelope whiteIcons"></i>&nbsp;<a href="mailto:srdanristic2@gmail.com">srdanristic2@gmail.com</a>
+        <i class="fa fa-envelope whiteIcons"></i>&nbsp;<a href="mailto:{{myEmail}}">{{myEmail}}</a>
       </li>
       <li class="list-inline-item">
-        <i class="fa fa-phone whiteIcons"></i>&nbsp;<a href="tel: 3189001294">318-900-1294</a>
+        <i class="fa fa-phone whiteIcons"></i>&nbsp;<a href="tel: {{myPhone}}">{{myPhone}}</a>
       </li>
       <li class="website list-inline-item">
-        <i class="fa fa-globe whiteIcons"></i>&nbsp;<a href="#" target="_blank">www.sristic.com</a>
+        <i class="fa fa-globe whiteIcons"></i>&nbsp;<a href="{{myWebsite}}" target="_blank">{{myWebsite}}</a>
       </li>
     </ul>
     </div>
@@ -42,9 +42,9 @@
         <div class="row">
           <div class="col-12 col-md-1"></div>
           <div class="col-12 col-md-10 skills-desc">
-            I have more than 8 years' experience building rich web applications for clients all over the world. Below is a quick overview of my ma. Want to find out more about my experience?
+             {{mySkillsSummary}}
             <br />
-            <a href="#">Check out my projects</a>
+            <a routerLink="/projects">Check out my projects</a>
           </div>
           <div class="col-12 col-md-1"></div>
         </div>
@@ -52,141 +52,49 @@
 
       <div class="skills-blocks mx-auto pt-5">
         <div class="row">
-          <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+          <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0" *ngFor="let skill of mySkills">
             <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
-              <h4 class="skills-cat text-center mb-3 mt-5">Frontend</h4>
+              <h4 class="skills-cat text-center mb-3 mt-5">{{skill.skillTitle}}</h4>
               <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
-                <img class="skills-icon" src="assets/img/front-end.svg">
+                <img class="skills-icon" src="assets/img/{{skill.skillImage}}">
               </div>
               <ul class="skills-list list-unstyled text-secondary">
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> React/Redux/Angular
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Javascript
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> NodeJS
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Webpack/Gulp/Grunt
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> HTML/CSS/SASS/LESS
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
-            <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
-              <h4 class="skills-cat text-center mb-3 mt-5">Backend</h4>
-              <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
-                <img class="skills-icon" src="assets/img/back-end.svg">
-              </div>
-              <ul class="skills-list list-unstyled text-secondary">
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Python/Django
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Ruby/Rails
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> PHP
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> PostgresSQL/MySQL
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> MongoDB
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="skills-block col-12 col-lg-4">
-            <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
-              <h4 class="skills-cat text-center mb-3 mt-5">Others</h4>
-              <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
-                <img class="skills-icon" src="assets/img/other.svg">
-              </div>
-              <ul class="skills-list list-unstyled text-secondary">
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> DevOps
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Unit Testing
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> UX/Wireframing
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Sketch/Balsamiq
-                </li>
-                <li class="mb-2">
-                  <i class="fa fa-check text-primary"></i> Wordpress/Shopify
+                <li class="mb-2" *ngFor="let indvSkill of skill.skills">
+                  <i class="fa fa-check text-primary"></i> {{indvSkill.skillName}}
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+
     </section>
+  </div>
 </div>
 
 <div class="wrapper container">
   <div class="main">
   <section class="main-section section">
+
     <h2 class="section-title">Certifications and Awards</h2>
     <div class="row">
-      <div class="item col-12 col-md-4">
+      <div class="item col-12 col-md-4" *ngFor="let cert of myCertAndAwards">
         <div class="item-inner">
           <div class="certification-img">
-            <img src="assets/img/microsoft-cert.png" width="100" height="100">
+            <img src="assets/img/{{cert.caaImage}}">
           </div>
-          <a href="#" target="_blank"><h3 class="main-section-title">MCSA SQL 2016 Database Development</h3></a>
+          <a href="#" target="_blank"><h3 class="main-section-title">{{cert.caaName}}</h3></a>
           <div class="main-section-subtitle">
-            Microsoft
+            {{cert.caaOrganization}}
           </div>
-          <div class="main-section-date">25 Jan 2019</div>
+          <div class="main-section-date">{{cert.caaDate}}</div>
           <div class="main-section-desc">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-          </div>
-        </div>
-      </div>
-
-      <div class="item col-12 col-md-4">
-        <div class="certification-img">
-          <img src="assets/img/oracle-cert.png" width="100" height="100">
-        </div>
-        <div class="item-inner">
-          <a href="https://www.youracclaim.com/badges/b0610484-16e7-43c4-af31-851ebfc2c002/linked_in_profile" target="_blank"><h3 class="main-section-title">Oracle Certified Associate, Java SE 8 Programmer</h3></a>
-          <div class="main-section-subtitle">
-            Oracle
-          </div>
-          <div class="main-section-date">14 Nov 2017</div>
-          <div class="main-section-desc">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-          </div>
-        </div>
-      </div>
-
-      <div class="item col-12 col-md-4">
-        <div class="item-inner">
-          <div class="certification-img">
-            <img src="assets/img/lsus-award.png" width="200" height="80" style="margin-top: 20px;">
-          </div>
-          <a href="#" target="_blank"><h3 class="main-section-title">University Award for Outstanding Student</h3></a>
-          <div class="main-section-subtitle">
-            Louisiana State University Shreveport
-          </div>
-          <div class="main-section-date">03 Apr 2018</div>
-          <div class="main-section-desc">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            {{cert.caaDesc}}
           </div>
         </div>
       </div>
     </div>
+
   </section>
   </div>
 </div>

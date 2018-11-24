@@ -1,3 +1,54 @@
-<p>
-  login works!
-</p>
+<div class="container">
+
+  <h1 class="my-4">Login</h1>
+
+  <div class="wrapper container">
+    <div class="main">
+      <section class="main-section section">
+        <h2 class="section-title">Admin Login</h2>
+        <div class="row">
+          <div class="item col-12">
+            <div class="row justify-content-center">
+              <div class="col-lg-5">
+
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                  <div class="form-group">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                      </div>
+                      <input type="email" class="form-control" placeholder="Email@gmail.com" formControlName="email" email>
+                    </div>
+                    <div *ngIf="submitted && loginForm.controls.email.errors" class="error">
+                      <div class="alert alert-danger" role="alert" *ngIf="loginForm.controls.email.errors.required">Email field is required.</div>
+                      <div class="alert alert-danger" role="alert" *ngIf="loginForm.controls.email.errors.email">Please provide correct email address.</div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text" style="padding-left: 17px;"><i class="fa fa-lock text-info"></i></div>
+                      </div>
+                      <input type="password" class="form-control" placeholder="Password" formControlName="password">
+                    </div>
+                    <div *ngIf="submitted && loginForm.controls.password.errors" class="error">
+                      <div class="alert alert-danger" role="alert" *ngIf="loginForm.controls.password.errors.required">Password field is required.</div>
+                    </div>
+                  </div>
+
+                  <div class="text-center">
+                    <input type="submit" value="Login" class="btn btn-info btn-block loginBtn">
+                    <!--<div class="alert alert-success" role="alert" *ngIf="success">Successfully Logged In!</div>-->
+                    <div class="alert alert-danger" role="alert" *ngIf="!success">Wrong Credentials!</div>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

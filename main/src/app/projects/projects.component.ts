@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { AppGlobals } from '../../services/globals/app.global';
+import { AppConstants } from '../../constants/app.constants';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss'],
-  providers: [AppGlobals]
+  providers: [AppConstants]
 })
 export class ProjectsComponent implements OnInit {
 
-  projects = this.globals.projects;
+  projects = this.constants.PROJECTS;
 
-  constructor(private globals: AppGlobals) { }
+  constructor(private constants: AppConstants) { }
 
   ngOnInit() {
   }

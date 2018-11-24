@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AppGlobals } from '../../services/globals/app.global';
+import { AppConstants } from '../../constants/app.constants';
 import { ActivatedRoute } from '@angular/router';
 import {Router} from "@angular/router"
 
@@ -8,14 +8,14 @@ import {Router} from "@angular/router"
   selector: 'app-project-view',
   templateUrl: './project-view.component.html',
   styleUrls: ['./project-view.component.scss'],
-  providers: [AppGlobals]
+  providers: [AppConstants]
 })
 export class ProjectViewComponent implements OnInit {
 
   project = undefined;
-  projects = this.globals.projects;
+  projects = this.constants.PROJECTS;
 
-  constructor(private globals: AppGlobals, private route: ActivatedRoute, private router: Router) { }
+  constructor(private constants: AppConstants, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
     this.getProject();
