@@ -148,6 +148,7 @@ export class AppConstants {
       caaOrganization: "Microsoft",
       caaImage: "microsoft-cert.png",
       caaDate: "25 Jan 2019",
+      caaLink: "#",
       caaDesc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
     },
     {
@@ -155,6 +156,7 @@ export class AppConstants {
       caaOrganization: "Oracle",
       caaImage: "oracle-cert.png",
       caaDate: "14 Nov 2017",
+      caaLink: "https://www.youracclaim.com/badges/b0610484-16e7-43c4-af31-851ebfc2c002/linked_in_profile",
       caaDesc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
     },
     {
@@ -162,6 +164,7 @@ export class AppConstants {
       caaOrganization: "Louisiana State University Shreveport",
       caaImage: "lsus-award.png",
       caaDate: "03 Apr 2018",
+      caaLink: "https://www.lsus.edu/news-and-events/lsus-honors-its-best-of-the-best-at-academic-awards-convocation-2018",
       caaDesc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
     }
   ];

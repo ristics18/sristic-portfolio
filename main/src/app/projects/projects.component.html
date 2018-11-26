@@ -6,10 +6,10 @@
         <a routerLink="/project/{{project.id}}"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
         <div class="card-body">
           <h5 class="card-title checkItOutBtn">
-            <a class="btn btn-primary" href="#"><i aria-hidden="true" class="fa fa-globe"></i> Check It Out</a>
+            <a class="btn btn-primary" routerLink="/project/{{project.id}}"><i aria-hidden="true" class="fa fa-globe"></i> Check It Out</a>
           </h5>
           <h4 class="card-title projectName">
-            <a href="#">{{project.projectName}}</a>
+            <a routerLink="/project/{{project.id}}">{{project.projectName}}</a>
           </h4>
           <h6 class="card-title projectDate">
             {{project.projectDate}}

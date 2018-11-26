@@ -3,11 +3,11 @@
     <div class="col-md-12">
       <div class="intro">
         <div class="container text-center">
-          <img class="header-section-profile-image img-fluid" src="assets/img/about-me.png" alt="No image!">
-          <h1 class="header-section-name">It's all about happiness</h1>
-          <div class="header-section-title">Treat people the way you want to be treated.</div>
+          <img class="header-section-profile-image img-fluid" src="assets/img/{{myImageAm}}" alt="No image">
+          <h1 class="header-section-name">{{myTitleAm}}</h1>
+          <div class="header-section-title">{{mySubtitleAm}}</div>
           <div class="header-section-main-text">
-            <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
+            <p>{{mySummaryAm}}</p>
           </div>
         </div>
       </div>
@@ -18,43 +18,17 @@
 <div class="wrapper container">
   <div class="main">
     <section class="main-section section">
-      <h2 class="section-title">Experience</h2>
+      <h2 class="section-title"><i class="fa fa-briefcase" aria-hidden="true"></i> Experience</h2>
       <div class="row">
-        <div class="item col-12 col-md-4">
+        <div class="item col-12 col-md-4" *ngFor="let experience of experiences">
           <div class="item-inner">
-            <h3 class="main-section-title">Full Stack Developer</h3>
+            <h3 class="main-section-title">{{experience.experienceName}}</h3>
             <div class="main-section-subtitle">
-              PioneerRx Pharmacy Software
+              {{experience.experienceCompany}}
             </div>
-            <div class="main-section-date">18 Jun 2018 - Current</div>
+            <div class="main-section-date">{{experience.experienceDate}}</div>
             <div class="main-section-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            </div>
-          </div>
-        </div>
-
-        <div class="item col-12 col-md-4">
-          <div class="item-inner">
-            <h3 class="main-section-title">Graduate Research Assistant</h3>
-            <div class="main-section-subtitle">
-              Louisiana State University Shreveport
-            </div>
-            <div class="main-section-date">31 Jan 2017 - 01 May 2018</div>
-            <div class="main-section-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            </div>
-          </div>
-        </div>
-
-        <div class="item col-12 col-md-4">
-          <div class="item-inner">
-            <h3 class="main-section-title">Intern/Junior Software Developer</h3>
-            <div class="main-section-subtitle">
-              Benetech Corporation
-            </div>
-            <div class="main-section-date">01 Oct 2015 - 01 May 2016</div>
-            <div class="main-section-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+              {{experience.experienceDesc}}
             </div>
           </div>
         </div>
@@ -67,45 +41,17 @@
 <div class="wrapper container">
   <div class="main">
     <section class="main-section section">
-      <h2 class="section-title">Education</h2>
+      <h2 class="section-title"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h2>
       <div class="row">
-        <div class="item col-12 col-md-4">
+        <div class="item col-12 col-md-4" *ngFor="let education of educations">
           <div class="item-inner">
-            <h3 class="main-section-title">Master of Computer Systems Technology</h3>
+            <h3 class="main-section-title">{{education.educationName}}</h3>
             <div class="main-section-subtitle">
-              Louisiana State University Shreveport
+              {{education.educationUniversity}}
             </div>
-            <div class="main-section-date">15 May 2018</div>
+            <div class="main-section-date">{{education.educationDate}}</div>
             <div class="main-section-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            </div>
-          </div>
-        </div>
-
-        <div class="item col-12 col-md-4">
-          <div class="item-inner">
-            <h3 class="main-section-title">Bachelor of Information Technology</h3>
-            <br />
-            <div class="main-section-subtitle">
-              University Metropolitan
-            </div>
-            <div class="main-section-date">01 Dec 2016</div>
-            <div class="main-section-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            </div>
-          </div>
-        </div>
-
-        <div class="item col-12 col-md-4">
-          <div class="item-inner">
-            <h3 class="main-section-title">High School</h3>
-            <br />
-            <div class="main-section-subtitle">
-              Sports High School in Belgrade
-            </div>
-            <div class="main-section-date">12 Apr 2012</div>
-            <div class="main-section-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+              {{education.educationDesc}}
             </div>
           </div>
         </div>

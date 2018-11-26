@@ -38,7 +38,7 @@
   <div class="main">
     <section class="main-section section">
       <div class="skills-overview">
-        <h2 class="section-title">Skills Overview</h2>
+        <h2 class="section-title"><i class="fa fa-wrench" aria-hidden="true"></i> Skills Overview</h2>
         <div class="row">
           <div class="col-12 col-md-1"></div>
           <div class="col-12 col-md-10 skills-desc">
@@ -53,7 +53,7 @@
       <div class="skills-blocks mx-auto pt-5">
         <div class="row">
           <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0" *ngFor="let skill of mySkills">
-            <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+            <div class="skills-block-inner bg-white py-4 px-5 position-relative">
               <h4 class="skills-cat text-center mb-3 mt-5">{{skill.skillTitle}}</h4>
               <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
                 <img class="skills-icon" src="assets/img/{{skill.skillImage}}">
@@ -67,7 +67,6 @@
           </div>
         </div>
       </div>
-
     </section>
   </div>
 </div>
@@ -75,15 +74,14 @@
 <div class="wrapper container">
   <div class="main">
   <section class="main-section section">
-
-    <h2 class="section-title">Certifications and Awards</h2>
+    <h2 class="section-title"><i class="fa fa-star" aria-hidden="true"></i> Certifications and Awards</h2>
     <div class="row">
       <div class="item col-12 col-md-4" *ngFor="let cert of myCertAndAwards">
         <div class="item-inner">
           <div class="certification-img">
             <img src="assets/img/{{cert.caaImage}}">
           </div>
-          <a href="#" target="_blank"><h3 class="main-section-title">{{cert.caaName}}</h3></a>
+          <a href="{{cert.caaLink}}" target="_blank"><h3 class="main-section-title">{{cert.caaName}}</h3></a>
           <div class="main-section-subtitle">
             {{cert.caaOrganization}}
           </div>
@@ -94,7 +92,6 @@
         </div>
       </div>
     </div>
-
   </section>
   </div>
 </div>

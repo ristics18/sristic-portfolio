@@ -10,7 +10,7 @@
           <div class="item col-12">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                  <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+                  <form [formGroup]="messageForm" (ngSubmit)="sendMessage()">
                     <div class="form-group">
                       <div class="input-group mb-2">
                         <div class="input-group-prepend">
@@ -51,6 +51,7 @@
                     <div class="text-center">
                       <input type="submit" value="Send" class="btn btn-info btn-block sendMessageBtn">
                       <div class="alert alert-success" role="alert" *ngIf="success">Message Successfully Sent!</div>
+                      <div class="alert alert-danger" role="alert" *ngIf="error">Something Went Wrong. Please Try Again!</div>
                     </div>
                   </form>
               </div>
