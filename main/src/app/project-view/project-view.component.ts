@@ -25,10 +25,11 @@ export class ProjectViewComponent implements OnInit {
   }
 
   getProject(){
-    const id = +this.route.snapshot.paramMap.get('id');
+    const id =+ this.route.snapshot.paramMap.get('id');
     for (var i = 0; i < this.projects.length; i++) {
       if (this.projects[i].id == id) {
         this.project = this.projects[i];
+        break;
       }
     }
   }

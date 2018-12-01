@@ -1,17 +1,17 @@
-@import "~src/assets/variables/variables.scss";
+@import "~src/assets/css-constants/colors.scss";
 
 h1{
-  color: $section-color;
+  color: $silver-4;
 }
 
 .sendMessageBtn {
-  background-color: #00a5bb;
-  border-color: #00a5bb;
+  background-color: $blue-8;
+  border-color: $blue-8;
 }
 
 .sendMessageBtn:hover {
-  background-color: #007888;
-  border-color: #007888;
+  background-color: $blue-11;
+  border-color: $blue-11;
 }
 
 .alert{

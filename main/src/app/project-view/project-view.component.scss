@@ -1,9 +1,13 @@
-@import "~src/assets/variables/variables.scss";
+@import "~src/assets/css-constants/colors.scss";
 
 h1{
-  color: $section-color;
+  color: $silver-4;
 }
 
 .projectTitle{
-  color: #434E5E;
+  color: $silver-7;
+}
+
+.container{
+  padding-bottom: 30px;
 }

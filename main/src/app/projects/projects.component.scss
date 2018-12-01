@@ -1,7 +1,7 @@
-@import "~src/assets/variables/variables.scss";
+@import "~src/assets/css-constants/colors.scss";
 
 h1{
-  color: $section-color;
+  color: $silver-4;
 }
 
 .portfolio-item {
@@ -13,22 +13,22 @@ h1{
 }
 
 .checkItOutBtn a{
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: $blue-5;
+  border-color: $blue-5;
 }
 
 .checkItOutBtn a:hover{
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color: $blue-6;
+  border-color: $blue-6;
 }
 
 .projectName{
-  color: #007bff;
+  color: $blue-5;
 }
 .projectDate{
-  color: #8a8a8a;
+  color: $silver-5;
 }
 
 .projectDesc{
-  color: #444;
+  color: $silver-4;
 }

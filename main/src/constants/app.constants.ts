@@ -147,7 +147,7 @@ export class AppConstants {
       caaName: "MCSA SQL 2016 Database Development",
       caaOrganization: "Microsoft",
       caaImage: "microsoft-cert.png",
-      caaDate: "25 Jan 2019",
+      caaDate: "In Progress",
       caaLink: "#",
       caaDesc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
     },

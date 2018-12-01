@@ -1,11 +1,11 @@
-@import "../../../assets/variables/variables";
+@import "../../../assets/css-constants/colors.scss";
 
 h1{
-  color: $section-color;
+  color: $silver-4;
 }
 
 .errorTitle{
-  color: red;
+  color: $red-2;
 }
 
 .errorSubTitle{

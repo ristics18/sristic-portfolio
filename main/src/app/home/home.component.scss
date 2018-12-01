@@ -1,4 +1,4 @@
-@import "~src/assets/variables/variables.scss";
+@import "~src/assets/css-constants/colors.scss";
 
 ///////////////////////
 //       Header      //
@@ -24,13 +24,13 @@
   border-radius: .25rem;
 }
 .resumeBtn:hover, a.resumeBtn:hover {
-  background: $resume-btn-hvr-color;
+  background: $blue-8;
   text-decoration: none;
 }
 
 .resumeBtn, a.resumeBtn {
-  background: $resume-btn-color;
-  color: $white-color;
+  background: $blue-7;
+  color: $white;
   padding: 8px 15px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -40,9 +40,9 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
-  -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 2px 4px 0 $black-2;
+  -moz-box-shadow: 0 2px 4px 0 $black-2;
+  box-shadow: 0 2px 4px 0 $black-2;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -67,12 +67,12 @@
   margin-bottom: 10px;
   font-size: 30px;
   text-align: center;
-  color: $section-color;
+  color: $silver-4;
   font-weight: 500;
 }
 .skills-desc{
   text-align: center;
-  color: $skills-desc-color;
+  color: $silver-8;
 }
 
 .skills-icon{
@@ -81,7 +81,7 @@
 
 .skills-sub-title{
   text-align: center;
-  color: #434E5E;
+  color: $silver-9;
   font-size: 22px;
   margin-top: 15px;
 }
@@ -91,7 +91,7 @@
 }
 
 .skills-icon-holder {
-  background: #41A4F5;
+  background: $blue-9;
   width: 80px;
   height: 80px;
   padding-top: 1.25rem;
@@ -106,11 +106,15 @@
 }
 
 .text-secondary {
-  color: $secondary-text !important;
+  color: $silver-10 !important;
 }
 
 .skills-cat{
-  color: $skills-cat;
+  color: $silver-11;
+}
+
+.text-primary {
+  color: $blue-9 !important;
 }
 
 ///////////////////////

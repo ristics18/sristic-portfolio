@@ -1,18 +1,18 @@
-@import "~src/assets/variables/variables.scss";
+@import "~src/assets/css-constants/colors.scss";
 
 .page-footer{
-  background-color: $home-bg-color;
-  color: $white-color;
+  background-color: $blue-2;
+  color: $white;
 }
 
 .footer-copyright{
-  background-color: $nav-bg-color;
-  color: $white-color;
+  background-color: $blue-1;
+  color: $white;
 }
 
 .btn-floating{
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
-  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: 0 5px 11px 0 $black-4, 0 4px 15px 0 $black-3;
+  box-shadow: 0 5px 11px 0 $black-4, 0 4px 15px 0 $black-3;
   width: 53px;
   height: 53px;
   position: relative;
@@ -28,23 +28,23 @@
 }
 
 .btn-github {
-   background-color: #24292e;
-   color: #fff;
+   background-color: $black-5;
+   color: $white;
  }
 
 .btn-linkedin{
-  background-color: #3b5998;
-  color: #fff;
+  background-color: $blue-10;
+  color: $white;
 }
 
 .btn-stackoverflow{
-  background-color: #dd4b39;
-  color: #fff;
+  background-color: $red-1;
+  color: $white;
 }
 
 .btn-slack{
-  background-color: #555459;
-  color: #fff;
+  background-color: $silver-12;
+  color: $white;
 }
 
 .footer-link{
@@ -56,5 +56,5 @@
 }
 
 .list-unstyled a{
-  color: $white-color;
+  color: $white;
 }

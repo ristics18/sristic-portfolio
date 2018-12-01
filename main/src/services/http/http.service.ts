@@ -10,11 +10,11 @@ export class HttpService {
 
   }
 
-  getData(){
+  getRequest(){
     return this.http.get("someUrl");
   }
 
-  sendData(url, body){
+  postRequest(url, body){
     return this.http.post(url, body, {responseType: 'text'});
   }
 

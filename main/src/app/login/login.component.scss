@@ -1,17 +1,17 @@
-@import "~src/assets/variables/variables.scss";
+@import "~src/assets/css-constants/colors.scss";
 
 h1{
-  color: $section-color;
+  color: $silver-4;
 }
 
 .loginBtn {
-  background-color: #00a5bb;
-  border-color: #00a5bb;
+  background-color: $blue-2;
+  border-color: $blue-2;
 }
 
 .loginBtn:hover {
-  background-color: #007888;
-  border-color: #007888;
+  background-color: $blue-1;
+  border-color: $blue-1;
 }
 
 .alert{
