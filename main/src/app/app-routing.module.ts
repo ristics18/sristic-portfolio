@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'error', component: ErrorComponent},
   { path: 'project/:id', component: ProjectViewComponent},
   { path: '404', component: PageNotFoundComponent},
-  { path: '**', component: ErrorComponent}
+  { path: '**', component: PageNotFoundComponent}
 ];
 
 @NgModule({

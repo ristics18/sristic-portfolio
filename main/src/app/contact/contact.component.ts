@@ -40,13 +40,11 @@ export class ContactComponent implements OnInit {
         "\n Message: " + this.messageForm.get('message').value
     }).subscribe(
       res => {
-        console.log(res);
         this.success = true;
         this.messageForm.reset();
         this.submitted = false;
       },
       err => {
-        console.log(err);
         this.error = true;
         this.messageForm.reset();
         this.submitted = false;
