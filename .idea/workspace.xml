@@ -15,62 +15,68 @@
     <session id="-1449991356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.126" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="browserslist" value="1" />
           <entry key="editorconfig" value="1" />
-          <entry key="html" value="95" />
+          <entry key="html" value="98" />
           <entry key="ico" value="1" />
           <entry key="js" value="1" />
-          <entry key="json" value="9" />
+          <entry key="json" value="10" />
           <entry key="md" value="1" />
           <entry key="scss" value="143" />
           <entry key="svg" value="2" />
-          <entry key="ts" value="136" />
+          <entry key="ts" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="95" />
+          <entry key="HTML" value="98" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="8" />
+          <entry key="JSON" value="9" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="143" />
           <entry key="SVG" value="2" />
-          <entry key="TypeScript" value="136" />
+          <entry key="TypeScript" value="140" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="4" />
+          <entry key="Angular2LanguageService" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="6487" />
+          <entry key="html" value="6498" />
           <entry key="json" value="147" />
           <entry key="scss" value="2757" />
-          <entry key="ts" value="7508" />
+          <entry key="ts" value="10860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="6483" />
+          <entry key="HTML" value="6494" />
           <entry key="JSON" value="147" />
           <entry key="JavaScript" value="4" />
           <entry key="SCSS" value="2757" />
-          <entry key="TypeScript" value="7508" />
+          <entry key="TypeScript" value="10860" />
         </counts>
       </usages-collector>
     </session>
@@ -83,9 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main-section</find>
-      <find>education</find>
-      <find>portfolio-item</find>
       <find>pagination</find>
       <find>whiteIcons</find>
       <find>text-secondary</find>
@@ -113,6 +116,9 @@
       <find>$blue-8007888</find>
       <find>skill</find>
       <find>41A4F5</find>
+      <find>certifi</find>
+      <find>education</find>
+      <find>git</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -140,7 +146,6 @@
         <option value="$PROJECT_DIR$/main/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/errors/error/error.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/footer/footer.component.ts" />
-        <option value="$PROJECT_DIR$/main/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/about/about.component.ts" />
@@ -149,8 +154,6 @@
         <option value="$PROJECT_DIR$/main/src/app/projects/projects.component.html" />
         <option value="$PROJECT_DIR$/main/src/services/http/http-service.service.ts" />
         <option value="$PROJECT_DIR$/main/src/services/http-service.service.ts" />
-        <option value="$PROJECT_DIR$/main/src/app/contact/contact.component.html" />
-        <option value="$PROJECT_DIR$/main/src/constants/app.constants.ts" />
         <option value="$PROJECT_DIR$/main/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/main/src/services/http/http.service.ts" />
         <option value="$PROJECT_DIR$/main/src/main.ts" />
@@ -176,6 +179,9 @@
         <option value="$PROJECT_DIR$/main/src/app/contact/contact.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/main/src/app/errors/page-not-found/page-not-found.component.html" />
+        <option value="$PROJECT_DIR$/main/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/main/src/app/contact/contact.component.html" />
+        <option value="$PROJECT_DIR$/main/src/constants/app.constants.ts" />
       </list>
     </option>
   </component>
@@ -205,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,18 +230,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,11 +282,17 @@
       <workItem from="1542584699699" duration="63209000" />
       <workItem from="1543379434060" duration="4565000" />
       <workItem from="1543625230421" duration="14967000" />
+      <workItem from="1546708205579" duration="1622000" />
+      <workItem from="1546710025935" duration="1755000" />
+      <workItem from="1546711875468" duration="1755000" />
+      <workItem from="1546724791579" duration="1042000" />
+      <workItem from="1546739241939" duration="800000" />
+      <workItem from="1546915235471" duration="1028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99489000" />
+    <option name="totallyTimeSpent" value="107491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,7 +306,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.24288724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.24288724" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,7 +319,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.29826465" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,27 +333,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/node_modules/@angular/router/router.metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11702" lean-forward="true" selection-start-column="11702" selection-end-column="11702" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -356,9 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,23 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-433">
           <caret line="809" column="4" selection-start-line="809" selection-start-column="4" selection-end-line="809" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/contact/contact.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="52" column="82" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/services/http/http.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/constants/app.constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="174" column="8" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/app/project-view/project-view.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -613,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/assets/css-constants/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -631,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,9 +617,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/services/http/http.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/contact/contact.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/constants/app.constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
         </state>
       </provider>
     </entry>

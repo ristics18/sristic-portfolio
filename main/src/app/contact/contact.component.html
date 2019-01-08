@@ -28,7 +28,7 @@
                         <div class="input-group-prepend">
                           <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
                         </div>
-                        <input type="email" class="form-control" placeholder="Email@gmail.com" formControlName="email" email>
+                        <input type="email" class="form-control" placeholder="Email@mail.com" formControlName="email" email>
                       </div>
                       <div *ngIf="submitted && messageForm.controls.email.errors" class="error">
                         <div class="alert alert-danger" role="alert" *ngIf="messageForm.controls.email.errors.required">Email field is required.</div>
