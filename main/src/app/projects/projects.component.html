@@ -1,9 +1,8 @@
-<div class="container">
-  <h1 class="my-4">Projects</h1>
+<div class="container" style="margin-top: 60px">
   <div class="row">
     <div class="col-lg-6 portfolio-item" *ngFor="let project of projects">
       <div class="card h-100">
-        <a routerLink="/project/{{project.id}}"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <a routerLink="/project/{{project.id}}"><img class="card-img-top" src="assets/img/projects/{{project.projectImage}}" alt="No Image" width="550" height="300"></a>
         <div class="card-body">
           <h5 class="card-title checkItOutBtn">
             <a class="btn btn-primary" routerLink="/project/{{project.id}}"><i aria-hidden="true" class="fa fa-globe"></i> Check It Out</a>

@@ -176,8 +176,8 @@ export class AppConstants {
       id: 1,
       projectName: "PioneerRx Work",
       projectDesc: "This is my current job",
-      projectDate: "Jun 2018 - Current",
-      projectImage: "pioneerrx.png",
+      projectDate: "Jun 2018 - Present",
+      projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
       projectTechnologies:[
         {
@@ -202,7 +202,7 @@ export class AppConstants {
       projectName: "Srdan Ristic Portfolio",
       projectDesc: "This is one of my favorite projects",
       projectDate: "Nov 2018 - Jan 2019",
-      projectImage: "srdanPortfolio.png",
+      projectImage: "portfolio.png",
       projectUrl: "https://www.sristic.com",
       projectTechnologies:[
         {
