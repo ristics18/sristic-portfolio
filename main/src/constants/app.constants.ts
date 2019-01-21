@@ -261,7 +261,7 @@ export class AppConstants {
       projectName: "Education Tool",
       projectDesc: "This is one of my favorite projects",
       projectDate: "Aug 2017 – May 2018",
-      projectImage: "educationTool.png",
+      projectImage: "education-tool.png",
       projectUrl: "https://www.lsuhsc.edu",
       projectTechnologies:[
         {
@@ -367,7 +367,7 @@ export class AppConstants {
       projectName: "Twitter Data Collecting, Analyzing and Visualization",
       projectDesc: "This is one of my favorite projects",
       projectDate: "Sep 2016 – Dec 2016",
-      projectImage: "twitterDataCAV.png",
+      projectImage: "capstone-project.png",
       projectUrl: "https://someawslink.com",
       projectTechnologies:[
         {
