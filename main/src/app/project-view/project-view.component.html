@@ -1,18 +1,18 @@
-<div class="container" *ngIf="project" style="padding-top: 30px">
+<div class="container" *ngIf="project">
   <h1 class="my-4">{{project.projectName}}</h1>
   <div class="row">
     <div class="col-md-8">
-      <a href="assets/img/projects/{{project.projectImage}}"><img class="img-fluid" style="border: 8px solid #007888" src="assets/img/projects/{{project.projectImage}}" alt="No Image"></a>
+      <img class="img-fluid" src="assets/img/projects/{{project.projectImage}}" alt="No Image">
     </div>
 
     <div class="col-md-4">
-      <h3><span class="parentheses">(</span><a href="{{project.projectUrl}}" target="_blank">Live View</a><span class="parentheses">)</span></h3>
+      <h3><a href="#">(Live View)</a></h3>
       <h3 class="my-3 projectTitle">Project Description</h3>
-      <p style="text-align: justify">{{project.projectDesc}}</p>
+      <p>{{project.projectDesc}}</p>
       <h3 class="my-3 projectTitle">Date</h3>
       <p>{{project.projectDate}}</p>
-      <h3 class="my-3 projectTitle">Technologies</h3>
-      <ul style="padding-left: 21px">
+      <h3 class="my-3 projectTitle">Technologies Used</h3>
+      <ul>
         <li *ngFor="let tech of project.projectTechnologies">
           {{tech.technologyName}}
         </li>
