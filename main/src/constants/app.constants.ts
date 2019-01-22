@@ -13,7 +13,7 @@ export class AppConstants {
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
-  readonly MY_WEBSITE_URL = "https://www.sristic.com";
+  readonly MY_WEBSITE_URL = "www.srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building mobile,web and desktop applications. Below is a quick overview of my skills and certifications, feel free to explore. Want to find out more about my experience?";
   readonly MY_WHATS_NEW = "Besides my full-time job I am also tutoring computer science, participating in open source projects and doing some freelancing.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
@@ -22,7 +22,7 @@ export class AppConstants {
   readonly MY_GITHUB = "https://github.com/ristics18";
   readonly MY_LINKEDIN = "https://www.linkedin.com/in/srdan-ristic-87577580/";
   readonly MY_STACKOVERFLOW = "https://stackoverflow.com/users/2687059/srdan-ristic";
-  readonly MY_SLACK = "https://www.sristic.com";
+  readonly MY_SLACK = "www.srdanristic.com";
 
   // About Me
   readonly MY_IMAGE_AM = "about-me.png";
@@ -36,7 +36,7 @@ export class AppConstants {
       experienceName: "Full Stack Developer",
       experienceCompany: "PioneerRx Pharmacy Software",
       experienceDate: "18 Jun 2018 - Current",
-      experienceDesc: "This is my current job where I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.). My involvement is mainly focused on centralized part of the pharmacies and their stores. I am also working on some the the internal web projects."
+      experienceDesc: "This is my current job where I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.). My involvement is mainly focused on centralized part of the pharmacies and their stores. I am also working on some of the internal web projects."
     },
     {
       experienceName: "Graduate Research Assistant",
@@ -174,8 +174,8 @@ export class AppConstants {
   readonly PROJECTS = [
     {
       id: 1,
-      projectName: "PioneerRx Work",
-      projectDesc: "This is my current job",
+      projectName: "PioneerRx Pharmacy Software",
+      projectDesc: "This is where I currently work, at my job I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.).",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
@@ -187,7 +187,7 @@ export class AppConstants {
           technologyName: ".NET"
         },
         {
-          technologyName: "SQL Server"
+          technologyName: "SQL Server, MariaDB"
         },
         {
           technologyName: "HTML, CSS, JavaScript"
@@ -200,28 +200,19 @@ export class AppConstants {
     {
       id: 2,
       projectName: "Srdan Ristic Portfolio",
-      projectDesc: "This is one of my favorite projects",
-      projectDate: "Nov 2018 - Jan 2019",
+      projectDesc: "This is my personalised website. Here you can get to know me and find out more about my career.",
+      projectDate: "Nov 2018 - Feb 2019",
       projectImage: "portfolio.png",
-      projectUrl: "https://www.sristic.com",
+      projectUrl: "https://www.srdanristic.com",
       projectTechnologies:[
         {
           technologyName: "Angular 7"
         },
         {
-          technologyName: "JavaScript"
+          technologyName: "AWS (CloudFront, S3, Route 53)"
         },
         {
-          technologyName: "AWS"
-        },
-        {
-          technologyName: "CloudFront"
-        },
-        {
-          technologyName: "S3"
-        },
-        {
-          technologyName: "Route53"
+          technologyName: "HTML, CSS, Bootstrap"
         },
         {
           technologyName: "Git"
@@ -231,13 +222,13 @@ export class AppConstants {
     {
       id: 3,
       projectName: "Advisor's Tool",
-      projectDesc: "This is one of my favorite projects",
+      projectDesc: "This is a system developed at LSUS, the idea of the system is to help generate curriculum worksheets based on your unofficial transcript.",
       projectDate: "Aug 2017 - May 2018",
       projectImage: "advisorsTool.png",
-      projectUrl: "https://www.lsus.edu",
+      projectUrl: "https://sun.cs.lsus.edu/advisors-tool/index.php",
       projectTechnologies:[
         {
-          technologyName: "PHP"
+          technologyName: "PHP 7"
         },
         {
           technologyName: "MySQL"
@@ -259,10 +250,10 @@ export class AppConstants {
     {
       id: 4,
       projectName: "Education Tool",
-      projectDesc: "This is one of my favorite projects",
+      projectDesc: "This is a system developed with the idea to help medical students at LSUHSC learn by going through cases provided by their professors.",
       projectDate: "Aug 2017 – May 2018",
       projectImage: "education-tool.png",
-      projectUrl: "https://www.lsuhsc.edu",
+      projectUrl: "http://www.lsuhscshreveport.edu/",
       projectTechnologies:[
         {
           technologyName: "PHP"
@@ -286,17 +277,14 @@ export class AppConstants {
     },
     {
       id: 5,
-      projectName: "Laboratory for Advanced Biomedical Informatics - Data mining, data analysis and data visualization",
-      projectDesc: "This is one of my favorite projects",
+      projectName: "Laboratory for Advanced Biomedical Informatics",
+      projectDesc: "This is when I worked as Graduate Research Assistant at LSUS. My work was focused on biomedical informatics projects.",
       projectDate: "Feb 2017 – May 2018",
       projectImage: "labi.png",
-      projectUrl: "https://www.labi.lsus.edu",
+      projectUrl: "http://www.labi.lsus.edu",
       projectTechnologies:[
         {
-          technologyName: "R"
-        },
-        {
-          technologyName: "Java"
+          technologyName: "R, Java"
         },
         {
           technologyName: "MySQL"
@@ -315,13 +303,13 @@ export class AppConstants {
     {
       id: 6,
       projectName: "Orbit",
-      projectDesc: "This is one of my favorite projects",
+      projectDesc: "This is a mobile application that helps school systems with the communication between parents and teachers.",
       projectDate: "Aug 2017 – May 2018",
       projectImage: "orbit.png",
       projectUrl: "https://play.google.com/store/apps/details?id=net.orbit.orbit",
       projectTechnologies:[
         {
-          technologyName: "Android/Java"
+          technologyName: "Java/Android"
         },
         {
           technologyName: "Spring Boot"
@@ -330,10 +318,10 @@ export class AppConstants {
           technologyName: "RESTful Web Services"
         },
         {
-          technologyName: "Jenkings"
+          technologyName: "Jenkins"
         },
         {
-          technologyName: "AWS EC2"
+          technologyName: "AWS (EC2)"
         },
         {
           technologyName: "Git"
@@ -343,7 +331,7 @@ export class AppConstants {
     {
       id: 7,
       projectName: "High Altitude Solar Eclipse Observer",
-      projectDesc: "This is one of my favorite projects",
+      projectDesc: "This project was consisted of creating and developing a payload for NASA competition that took place in Palestine, TX.",
       projectDate: "Jan 2017 – May 2017",
       projectImage: "highAltitudeSEO.png",
       projectUrl: "https://sites.google.com/site/solareclipseobserver/home",
@@ -358,6 +346,9 @@ export class AppConstants {
           technologyName: "HTML, CSS, JavaScript"
         },
         {
+          technologyName: "RaspberryPi, Sensors"
+        },
+        {
           technologyName: "Raspbian"
         }
       ]
@@ -365,10 +356,10 @@ export class AppConstants {
     {
       id: 8,
       projectName: "Twitter Data Collecting, Analyzing and Visualization",
-      projectDesc: "This is one of my favorite projects",
+      projectDesc: "This is a web project that is used for Twitter data collecting and visualizing based on hashtags provided.",
       projectDate: "Sep 2016 – Dec 2016",
       projectImage: "capstone-project.png",
-      projectUrl: "https://someawslink.com",
+      projectUrl: "#",
       projectTechnologies:[
         {
           technologyName: "Java"
@@ -389,7 +380,10 @@ export class AppConstants {
           technologyName: "AngularJS"
         },
         {
-          technologyName: "HTML, CSS, JavaScript"
+          technologyName: "AWS"
+        },
+        {
+          technologyName: "Git"
         }
       ]
     }
