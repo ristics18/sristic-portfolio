@@ -5,16 +5,16 @@ export class AppConstants {
 
   // Basic Info
   readonly MY_NAME = "Srdan Ristic";
-  readonly MY_LOGO = "logo.png";
+  readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself. I am a dedicated, focused, organized, hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, capable of completing multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform projects and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself. I am a hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, capable of completing multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform projects and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "www.srdanristic.com";
-  readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building mobile,web and desktop applications. Below is a quick overview of my skills and certifications, feel free to explore. Want to find out more about my experience?";
+  readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building web, mobile and desktop applications. Below is a quick overview of my skills and certifications. Want to find out more about my experience?";
   readonly MY_WHATS_NEW = "Besides my full-time job I am also tutoring computer science, participating in open source projects and doing some freelancing.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
 
@@ -22,13 +22,13 @@ export class AppConstants {
   readonly MY_GITHUB = "https://github.com/ristics18";
   readonly MY_LINKEDIN = "https://www.linkedin.com/in/srdan-ristic-87577580/";
   readonly MY_STACKOVERFLOW = "https://stackoverflow.com/users/2687059/srdan-ristic";
-  readonly MY_SLACK = "www.srdanristic.com";
+  readonly MY_SLACK = "https://www.facebook.com/srdjan.ristic.surge";
 
   // About Me
   readonly MY_IMAGE_AM = "about-me.png";
-  readonly MY_TITLE_AM = "It's all about happiness";
-  readonly MY_SUBTITLE_AM = "Treat people the way you want to be treated.";
-  readonly MY_SUMMARY_AM = "Let me start of with a simple introduction. My name is Srđan Ristic and I come from Serbia, a small country in Southeastern Europe. In United States I go by Surgen. My life is focused on happiness just like I stated above. If I am not happy I make a change. I always think of it as if today was the last day on Earth, the question would be: Am I going to start complaining about the things that I don't like or don't want to do? No, the idea is to live this life at it's fullest and be positive. There are two things that make me the happiest person on earth and those are basketball and development. I am all about sports and socializing, always interested in meeting new people and making connections.";
+  readonly MY_TITLE_AM = "My life is driven by a word politeness";
+  readonly MY_SUBTITLE_AM = "It is all about small things that make a big difference";
+  readonly MY_SUMMARY_AM = "Let me start of with a simple introduction. My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In United States I go by Surgen. My life is focused on happiness just like I stated above. If I am not happy I make a change. I always think of it as if today was the last day on Earth, the question would be: Am I going to start complaining about the things that I don't like or don't want to do? No, the idea is to live this life at it's fullest and be positive. There are two things that make me the happiest person on earth and those are basketball and development. I am all about sports and socializing, always interested in meeting new people and making connections.";
 
   // Experience
   readonly EXPERIENCE = [
@@ -41,7 +41,7 @@ export class AppConstants {
     {
       experienceName: "Graduate Research Assistant",
       experienceCompany: "Louisiana State University Shreveport",
-      experienceDate: "31 Jan 2017 - 01 May 2018",
+      experienceDate: "01 Feb 2017 - 01 May 2018",
       experienceDesc: "Worked on a variety of biomedical informatics projects. With the use of powerful computers, I learned and worked on managing and analyzing biological, chemical, and medical processes in the interest of improving medicine and patient care."
     },
     {
@@ -55,10 +55,10 @@ export class AppConstants {
   // Education
   readonly EDUCATION = [
     {
-      educationName: "MS in Computer Systems Technology",
+      educationName: "MS in Computer System Technology",
       educationUniversity: "Louisiana State University Shreveport",
       educationDate: "01 Jan 2017 - 15 May 2018",
-      educationDesc: "Attended LSUS for little bit more than a year in order to complete my Master's. Worked on variety of projects in which my favorite one was the capstone project (Android app)."
+      educationDesc: "Attended LSUS for a year and a half in order to complete my Master's. Worked on variety of projects in which my favorite one was a capstone project (Android app)."
     },
 
     {
@@ -71,7 +71,7 @@ export class AppConstants {
       educationName: "High School",
       educationUniversity: "Sports High School in Belgrade",
       educationDate: "01 Sep 2008 - 12 Apr 2012",
-      educationDesc: "Attended Sports High School in Belgrade where the main focus besides school was basketball. Spent my junior year in Raymond, IL."
+      educationDesc: "Attended Sports High School in Belgrade where my main focus besides school was basketball. Spent my junior year in Raymond, IL as an exchange student."
     }
   ];
 
@@ -88,7 +88,7 @@ export class AppConstants {
           skillName: "Bootstrap 3/4"
         },
         {
-          skillName: "JS/AngularJS/Angular"
+          skillName: "JavaScript/Angular"
         },
         {
           skillName: "NodeJS"
