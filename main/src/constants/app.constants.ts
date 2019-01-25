@@ -150,7 +150,7 @@ export class AppConstants {
       caaImage: "microsoft-cert.png",
       caaDate: "In Progress",
       caaLink: "#",
-      caaDesc: "I am currently pursuing this certification, which is consisted of two exams 70-701 and 70-702. I have already passed the 701 and am currently studying for 702."
+      caaDesc: "I am currently pursuing this certification which is consisted of two exams 70-701 and 70-702. I have already passed the 701 and am currently studying for 702."
     },
     {
       caaName: "Oracle Certified Associate, Java SE 8 Programmer",
