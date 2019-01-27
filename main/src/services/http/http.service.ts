@@ -15,7 +15,7 @@ export class HttpService {
   }
 
   postRequest(url, body){
-    return this.http.post(url, body, {responseType: 'text'});
+    return this.http.post(url, body, {responseType: 'text', headers:{'content-type': 'application/x-www-form-urlencoded'}});
   }
 
 }
