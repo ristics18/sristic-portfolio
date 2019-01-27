@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60ce3c3c-c36a-4082-ab7f-88ff7cc8a28e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/assets/img/projects/portfolio.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/assets/img/projects/portfolio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/services/http/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/services/http/http.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/assets/files/Srdan Ristic Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/assets/files/Srdan Ristic Resume.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,17 +18,7 @@
     <favorites_list name="sristic-portfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/src/services/http/http.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -141,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,23 +141,11 @@
               <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,19 +158,19 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/main/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/main/src/assets/img/projects" />
-      <recent name="$PROJECT_DIR$/main/src" />
-      <recent name="$PROJECT_DIR$/main/src/assets/img" />
-      <recent name="$PROJECT_DIR$/main/src/assets/files" />
-      <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src\assets\img\projects" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src" />
       <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src\services\http" />
       <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src\constants" />
       <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src\app" />
       <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src\app\errors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/src/assets/files" />
+      <recent name="$PROJECT_DIR$/main/src/assets/img/projects" />
+      <recent name="$PROJECT_DIR$/main/src" />
+      <recent name="$PROJECT_DIR$/main/src/assets/img" />
+      <recent name="C:\Srdjan\Development\Portfolio\sristic-portfolio\main\src\assets\img\projects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,12 +224,14 @@
       <workItem from="1548392441178" duration="956000" />
       <workItem from="1548522578819" duration="1711000" />
       <workItem from="1548555653264" duration="90000" />
-      <workItem from="1548556277535" duration="902000" />
+      <workItem from="1548556277535" duration="1303000" />
+      <workItem from="1548561469693" duration="14000" />
+      <workItem from="1548562536364" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129513000" />
+    <option name="totallyTimeSpent" value="130146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,9 +244,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="979" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17430227" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17430227" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,7 +258,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.29826465" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17925592" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17925592" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
