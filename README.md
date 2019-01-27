@@ -2,7 +2,7 @@
 
 Hi! Welcome to repository that represents my personal website. I have developed my portfolio using Angular 7, feel free to explore through the code and check out my website.
 
-## Deployment
+## Deployment Pipeline
 
 ![alt text](https://srdanristic.com/assets/img/projects/portfolio.png)
 
