@@ -8,12 +8,12 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself. I am a hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, capable of completing multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform projects and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself. I am a hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, capable of completing multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
-  readonly MY_WEBSITE_URL = "www.srdanristic.com";
+  readonly MY_WEBSITE_URL = "https://srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building web, mobile and desktop applications. Below is a quick overview of my skills and certifications. Want to find out more about my experience?";
   readonly MY_WHATS_NEW = "Besides my full-time job I am also tutoring computer science, participating in open source projects and doing some freelancing.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
@@ -26,16 +26,16 @@ export class AppConstants {
 
   // About Me
   readonly MY_IMAGE_AM = "about-me.png";
-  readonly MY_TITLE_AM = "My life is driven by a word politeness";
+  readonly MY_TITLE_AM = "My life is driven by the word politeness";
   readonly MY_SUBTITLE_AM = "It is all about small things that make a big difference";
-  readonly MY_SUMMARY_AM = "Let me start of with a simple introduction. My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In United States I go by Surgen. My life is focused on happiness just like I stated above. If I am not happy I make a change. I always think of it as if today was the last day on Earth, the question would be: Am I going to start complaining about the things that I don't like or don't want to do? No, the idea is to live this life at it's fullest and be positive. There are two things that make me the happiest person on earth and those are basketball and development. I am all about sports and socializing, always interested in meeting new people and making connections.";
+  readonly MY_SUMMARY_AM = "Let me start of with a simple introduction. My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In United States I go by Surgen. My life is focused on happiness. If I am not happy I make a change. I always think of it as if today was the last day on Earth, should I start complaining about the things that I don't like or don't want to do, no, the idea is to live the life at it's fullest and be positive. There are two things that make me the happiest person on earth and those are sports and development. I also like socializing with people, always interested in meeting new people and making connections.";
 
   // Experience
   readonly EXPERIENCE = [
     {
       experienceName: "Full Stack Developer",
       experienceCompany: "PioneerRx Pharmacy Software",
-      experienceDate: "18 Jun 2018 - Current",
+      experienceDate: "18 Jun 2018 - Present",
       experienceDesc: "This is my current job where I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.). My involvement is mainly focused on centralized part of the pharmacies and their stores. I am also working on some of the internal web projects."
     },
     {
@@ -58,7 +58,7 @@ export class AppConstants {
       educationName: "MS in Computer System Technology",
       educationUniversity: "Louisiana State University Shreveport",
       educationDate: "01 Jan 2017 - 15 May 2018",
-      educationDesc: "Attended LSUS for a year and a half in order to complete my Master's. Worked on variety of projects in which my favorite one was a capstone project (Android app)."
+      educationDesc: "Attended LSUS for a year and a half in order to complete my Master's. Worked on a variety of projects where my favorite one was a capstone project (Android app)."
     },
 
     {
@@ -175,7 +175,7 @@ export class AppConstants {
     {
       id: 1,
       projectName: "PioneerRx Pharmacy Software",
-      projectDesc: "This is where I currently work, at my job I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.).",
+      projectDesc: "This is my current job where I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.).",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
@@ -200,10 +200,10 @@ export class AppConstants {
     {
       id: 2,
       projectName: "Srdan Ristic Portfolio",
-      projectDesc: "This is my personalised website. Here you can get to know me and find out more about my career.",
+      projectDesc: "This is my personal website. Here you can get to know me and find out more about my career.",
       projectDate: "Nov 2018 - Feb 2019",
       projectImage: "portfolio.png",
-      projectUrl: "https://www.srdanristic.com",
+      projectUrl: "https://srdanristic.com",
       projectTechnologies:[
         {
           technologyName: "Angular 7"
