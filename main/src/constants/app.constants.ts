@@ -8,14 +8,14 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself. I am a hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, capable of completing multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself - I am a hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, being able to complete multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "https://srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building web, mobile and desktop applications. Below is a quick overview of my skills and certifications. Want to find out more about my experience?";
-  readonly MY_WHATS_NEW = "Besides my full-time job I am also tutoring computer science, participating in open source projects and doing some freelancing.";
+  readonly MY_WHATS_NEW = "Aside from my full-time job, I am also tutoring computer science, participating in open source projects and doing some freelancing.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
 
   // Links
@@ -28,7 +28,7 @@ export class AppConstants {
   readonly MY_IMAGE_AM = "about-me.png";
   readonly MY_TITLE_AM = "My life is driven by the word politeness";
   readonly MY_SUBTITLE_AM = "It is all about small things that make a big difference";
-  readonly MY_SUMMARY_AM = "Let me start of with a simple introduction. My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In United States I go by Surgen. My life is focused on happiness. If I am not happy I make a change. I always think of it as if today was the last day on Earth, should I start complaining about the things that I don't like or don't want to do, no, the idea is to live the life at it's fullest and be positive. There are two things that make me the happiest person on earth and those are sports and development. I also like socializing with people, always interested in meeting new people and making connections.";
+  readonly MY_SUMMARY_AM = "Let me start off with a simple introduction - My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In the United States I go by Surgen. My life is focused on happiness; If I am not happy, I make a change. I like to live every day as if it were my last day on Earth. Instead of focusing on things that I don't like or don't want to do, I would much rather remain positive and live my life to the fullest. The two things that bring me the most happiness are sports and software development. I also enjoy socializing and am always interested in meeting new people and making connections.";
 
   // Experience
   readonly EXPERIENCE = [
@@ -36,19 +36,19 @@ export class AppConstants {
       experienceName: "Full Stack Developer",
       experienceCompany: "PioneerRx Pharmacy Software",
       experienceDate: "18 Jun 2018 - Present",
-      experienceDesc: "This is my current job where I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.). My involvement is mainly focused on centralized part of the pharmacies and their stores. I am also working on some of the internal web projects."
+      experienceDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers etc. My involvement is mainly focused on the core functions of the pharmacies and their stores. I am also working on some of the company's internal web projects."
     },
     {
       experienceName: "Graduate Research Assistant",
       experienceCompany: "Louisiana State University Shreveport",
       experienceDate: "01 Feb 2017 - 01 May 2018",
-      experienceDesc: "Worked on a variety of biomedical informatics projects. With the use of powerful computers, I learned and worked on managing and analyzing biological, chemical, and medical processes in the interest of improving medicine and patient care."
+      experienceDesc: "I worked on a variety of biomedical informatics projects. With the use of powerful computers, I learned and worked on managing and analyzing biological, chemical, and medical processes in the interest of improving medicine and patient care. I frequently collaborated with doctors regarding the data analysis."
     },
     {
       experienceName: "Intern/Junior Software Developer",
       experienceCompany: "Benetech Corporation",
       experienceDate: "01 Oct 2015 - 01 May 2016",
-      experienceDesc: "Besides learning and acquiring new skills using various programming technologies, I worked on development and maintenance of the systems for content management, using technologies such as Java, Spring, REST, SQL, Alfresco, CMIS and AngularJS. I communicated with clients on a daily bases."
+      experienceDesc: "Besides learning and acquiring new skills using various programming technologies, I worked on development and maintenance of the systems for content management, using technologies such as Java, Spring, REST, SQL, Alfresco, CMIS and AngularJS. I communicated with clients on a daily bases regarding the improvement of the system."
     }
   ];
 
@@ -60,12 +60,11 @@ export class AppConstants {
       educationDate: "01 Jan 2017 - 15 May 2018",
       educationDesc: "Attended LSUS for a year and a half in order to complete my Master's. Worked on a variety of projects where my favorite one was a capstone project (Android app)."
     },
-
     {
       educationName: "BS in Information Technology",
       educationUniversity: "University Metropolitan",
       educationDate: "01 Oct 2012 - 01 Dec 2016",
-      educationDesc: "Pursued my Bachelor's degree in Belgrade, Serbia. That was my starting point when it comes to software development. Mainly focused on Java projects."
+      educationDesc: "Pursued my Bachelor's degree in Belgrade, Serbia. This was my starting point when it comes to software development. Mainly focused on Java projects."
     },
     {
       educationName: "High School",
@@ -150,7 +149,7 @@ export class AppConstants {
       caaImage: "microsoft-cert.png",
       caaDate: "In Progress",
       caaLink: "#",
-      caaDesc: "I am currently pursuing this certification which is consisted of two exams 70-701 and 70-702. I have already passed the 701 and am currently studying for 702."
+      caaDesc: "I am currently pursuing this certification which consists of two exams: 70-701 and 70-702. I have already passed the 701 and am currently studying for 702."
     },
     {
       caaName: "Oracle Certified Associate, Java SE 8 Programmer",
@@ -158,7 +157,7 @@ export class AppConstants {
       caaImage: "oracle-cert.png",
       caaDate: "14 Nov 2017",
       caaLink: "https://www.youracclaim.com/badges/b0610484-16e7-43c4-af31-851ebfc2c002/linked_in_profile",
-      caaDesc: "I am a big fan of Java, one of the reasons why I pursued and successfully completed this certification. My future goal is to take Oracle Certified Professional exam."
+      caaDesc: "I am a big fan of Java - one of the reasons why I pursued and successfully completed this certification. My future goal is to take Oracle Certified Professional exam."
     },
     {
       caaName: "University Award for Outstanding Student",
@@ -166,7 +165,7 @@ export class AppConstants {
       caaImage: "lsus-award.png",
       caaDate: "03 Apr 2018",
       caaLink: "https://www.lsus.edu/news-and-events/lsus-honors-its-best-of-the-best-at-academic-awards-convocation-2018",
-      caaDesc: "I was chosen as an outstanding student at the end of my Master's at LSUS. This was a nice surprise for me that showed me that hard work pays off."
+      caaDesc: "I was chosen as an outstanding student at the end of my Master's studies at LSUS. I was honored to receive this award, as it demonstrated that hard works pays off."
     }
   ];
 
@@ -175,7 +174,7 @@ export class AppConstants {
     {
       id: 1,
       projectName: "PioneerRx Pharmacy Software",
-      projectDesc: "This is my current job where I develop and maintain software for pharmacies (patients, prescriptions, prescribers etc.).",
+      projectDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers etc.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
@@ -222,7 +221,7 @@ export class AppConstants {
     {
       id: 3,
       projectName: "Advisor's Tool",
-      projectDesc: "This is a system developed at LSUS, the idea of the system is to help generate curriculum worksheets based on your unofficial transcript.",
+      projectDesc: "This is a system developed at LSUS. The idea of the system is to generate curriculum worksheets based on student's transcript.",
       projectDate: "Aug 2017 - May 2018",
       projectImage: "advisorsTool.png",
       projectUrl: "https://sun.cs.lsus.edu/advisors-tool/index.php",
@@ -331,7 +330,7 @@ export class AppConstants {
     {
       id: 7,
       projectName: "High Altitude Solar Eclipse Observer",
-      projectDesc: "This project was consisted of creating and developing a payload for NASA competition that took place in Palestine, TX.",
+      projectDesc: "This project consisted of creating and developing a payload for NASA competition that took place in Palestine, TX.",
       projectDate: "Jan 2017 – May 2017",
       projectImage: "highAltitudeSEO.png",
       projectUrl: "https://sites.google.com/site/solareclipseobserver/home",
