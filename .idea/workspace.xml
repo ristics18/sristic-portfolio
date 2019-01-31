@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ce3c3c-c36a-4082-ab7f-88ff7cc8a28e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main/src/constants/app.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/constants/app.constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/src/constants/app.constants.ts">
+        <entry file="file://$PROJECT_DIR$/main/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="176" column="153" selection-start-line="176" selection-start-column="153" selection-end-line="176" selection-end-column="153" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -31,7 +32,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rounded-circle</find>
       <find>position-absolute</find>
       <find>d-inline-block</find>
       <find>profile</find>
@@ -61,6 +61,7 @@
       <find>cross</find>
       <find>this is</find>
       <find>Beside</find>
+      <find>, presc</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -103,7 +104,6 @@
         <option value="$PROJECT_DIR$/main/src/app/project-view/project-view.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/project-view/project-view.component.scss" />
         <option value="$PROJECT_DIR$/main/angular.json" />
-        <option value="$PROJECT_DIR$/main/src/index.html" />
         <option value="$PROJECT_DIR$/main/src/app/contact/contact.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/main/src/app/project-view/project-view.component.html" />
@@ -124,12 +124,12 @@
         <option value="$PROJECT_DIR$/main/src/services/http/http.service.ts" />
         <option value="$PROJECT_DIR$/main/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/main/src/constants/app.constants.ts" />
+        <option value="$PROJECT_DIR$/main/src/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="979" />
   </component>
@@ -157,13 +157,6 @@
               <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,12 +244,15 @@
       <workItem from="1548561469693" duration="14000" />
       <workItem from="1548562536364" duration="218000" />
       <workItem from="1548606995943" duration="1206000" />
-      <workItem from="1548633733270" duration="3333000" />
+      <workItem from="1548633733270" duration="3505000" />
+      <workItem from="1548638323725" duration="169000" />
+      <workItem from="1548638515286" duration="183000" />
+      <workItem from="1548909788444" duration="126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134685000" />
+    <option name="totallyTimeSpent" value="135335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +264,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1920" height="979" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17430227" />
@@ -414,13 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -640,8 +629,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/constants/app.constants.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="176" column="153" selection-start-line="176" selection-start-column="153" selection-end-line="176" selection-end-column="153" />
+        <state relative-caret-position="138">
+          <caret line="171" column="13" lean-forward="true" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
