@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ce3c3c-c36a-4082-ab7f-88ff7cc8a28e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main/src/assets/img/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/assets/img/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/app/about/about.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/app/about/about.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/app/projects/projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/app/projects/projects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/app/projects/projects.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/app/projects/projects.component.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +20,26 @@
     <favorites_list name="sristic-portfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/app/projects/projects.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="78" lean-forward="true" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/src/app/projects/projects.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -85,7 +107,6 @@
         <option value="$PROJECT_DIR$/main/src/main.ts" />
         <option value="$PROJECT_DIR$/main/src/app/nav/nav.component.scss" />
         <option value="$PROJECT_DIR$/main/src/styles.scss" />
-        <option value="$PROJECT_DIR$/main/src/app/projects/projects.component.scss" />
         <option value="$PROJECT_DIR$/main/src/app/contact/contact.component.scss" />
         <option value="$PROJECT_DIR$/main/src/app/home/home.component.scss" />
         <option value="$PROJECT_DIR$/main/src/assets/css-constants/colors.scss" />
@@ -97,13 +118,10 @@
         <option value="$PROJECT_DIR$/main/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/main/src/app/project-view/project-view.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/contact/contact.component.html" />
-        <option value="$PROJECT_DIR$/main/src/app/projects/projects.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/footer/footer.component.scss" />
         <option value="$PROJECT_DIR$/main/src/app/nav/nav.component.ts" />
         <option value="$PROJECT_DIR$/main/src/app/nav/nav.component.html" />
-        <option value="$PROJECT_DIR$/main/src/app/about/about.component.scss" />
-        <option value="$PROJECT_DIR$/main/src/app/about/about.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/errors/error/error.component.html" />
         <option value="$PROJECT_DIR$/main/src/app/errors/error/error.component.scss" />
         <option value="$PROJECT_DIR$/main/src/app/login/login.component.scss" />
@@ -114,6 +132,10 @@
         <option value="$PROJECT_DIR$/main/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/main/src/constants/app.constants.ts" />
         <option value="$PROJECT_DIR$/main/src/index.html" />
+        <option value="$PROJECT_DIR$/main/src/app/about/about.component.html" />
+        <option value="$PROJECT_DIR$/main/src/app/about/about.component.scss" />
+        <option value="$PROJECT_DIR$/main/src/app/projects/projects.component.html" />
+        <option value="$PROJECT_DIR$/main/src/app/projects/projects.component.scss" />
       </list>
     </option>
   </component>
@@ -128,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,13 +174,28 @@
               <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,11 +286,12 @@
       <workItem from="1548993297019" duration="6000" />
       <workItem from="1549225586892" duration="15000" />
       <workItem from="1550333933518" duration="246000" />
+      <workItem from="1550351511769" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135672000" />
+    <option name="totallyTimeSpent" value="135971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,8 +304,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="979" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17430227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17430227" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -279,7 +319,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.29826465" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17925592" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17587373" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -360,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/projects/projects.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/node_modules/bootstrap/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1972">
@@ -443,20 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/projects/projects.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -489,20 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -637,6 +642,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/projects/projects.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="78" lean-forward="true" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/about/about.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/app/projects/projects.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
