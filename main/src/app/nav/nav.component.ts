@@ -17,4 +17,14 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  onClickLink = function(){
+
+    var screenWidth = window.innerWidth;
+
+    if (screenWidth < 992) {
+      document.getElementById('navBtn').click();
+    }
+
+  };
+
 }

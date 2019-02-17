@@ -15,7 +15,7 @@ export class AppConstants {
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "https://srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building web, mobile and desktop applications. Below is a quick overview of my skills and certifications. Want to find out more about my experience?";
-  readonly MY_WHATS_NEW = "Aside from my full-time job, I am also tutoring computer science, participating in open source projects and doing some freelancing.";
+  readonly MY_WHATS_NEW = "Aside from my full-time job, I am also tutoring computer science and participating in open source projects.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
 
   // Links
