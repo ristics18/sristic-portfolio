@@ -5,7 +5,7 @@
       <a href="assets/img/projects/{{project.projectImage}}"><img class="img-fluid" style="border: 8px solid #007888" src="assets/img/projects/{{project.projectImage}}" alt="No Image"></a>
     </div>
     <div class="col-md-8" *ngIf="project.projectImage == 'udemyCourse.mp4'">
-      <video width="100%" height="auto" style="object-fit: fill;" poster="/assets/img/projects/udemyThumbnail.png" controls>
+      <video width="100%" height="auto" style="object-fit: fill; border: 8px solid #007888;" poster="/assets/img/projects/udemyThumbnail.png" controls>
         <source src="/assets/img/projects/{{project.projectImage}}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
