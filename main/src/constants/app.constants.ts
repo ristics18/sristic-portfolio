@@ -198,6 +198,19 @@ export class AppConstants {
     },
     {
       id: 2,
+      projectName: "Oracle Certified Associate Java SE 8 Practice Exams",
+      projectDesc: "I have created this Udemy course with an idea to develop practice exams that will help students and developers prepare for OCA Java SE 8 Programmer I (1Z0-808) certification or Java interviews.",
+      projectDate: "February 2019 - April 2019",
+      projectImage: "udemyCourse.mp4",
+      projectUrl: "https://www.udemy.com/oracle-certified-associate-java-se-8-practice-exams/",
+      projectTechnologies:[
+        {
+          technologyName: "Java 8"
+        }
+      ]
+    },
+    {
+      id: 3,
       projectName: "Srdan Ristic Portfolio",
       projectDesc: "This is my personal website. Here you can get to know me and find out more about my career.",
       projectDate: "Nov 2018 - Feb 2019",
@@ -219,7 +232,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 3,
+      id: 4,
       projectName: "Advisor's Tool",
       projectDesc: "This is a system developed at LSUS. The idea of the system is to generate curriculum worksheets based on student's transcript.",
       projectDate: "Aug 2017 - May 2018",
@@ -247,7 +260,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 4,
+      id: 5,
       projectName: "Education Tool",
       projectDesc: "This is a system developed with the idea to help medical students at LSUHSC learn by going through cases provided by their professors.",
       projectDate: "Aug 2017 – May 2018",
@@ -275,7 +288,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 5,
+      id: 6,
       projectName: "Laboratory for Advanced Biomedical Informatics",
       projectDesc: "This is when I worked as Graduate Research Assistant at LSUS. My work was focused on biomedical informatics projects.",
       projectDate: "Feb 2017 – May 2018",
@@ -300,7 +313,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 6,
+      id: 7,
       projectName: "Orbit",
       projectDesc: "This is a mobile application that helps school systems with the communication between parents and teachers.",
       projectDate: "Aug 2017 – May 2018",
@@ -328,7 +341,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 7,
+      id: 8,
       projectName: "High Altitude Solar Eclipse Observer",
       projectDesc: "This project consisted of creating and developing a payload for NASA competition that took place in Palestine, TX.",
       projectDate: "Jan 2017 – May 2017",
@@ -353,7 +366,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 8,
+      id: 9,
       projectName: "Twitter Data Collecting, Analyzing and Visualization",
       projectDesc: "This is a web project that is used for Twitter data collecting and visualizing based on hashtags provided.",
       projectDate: "Sep 2016 – Dec 2016",
