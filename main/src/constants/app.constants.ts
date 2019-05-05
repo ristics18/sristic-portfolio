@@ -28,7 +28,7 @@ export class AppConstants {
   readonly MY_IMAGE_AM = "about-me.png";
   readonly MY_TITLE_AM = "My life is driven by the word politeness";
   readonly MY_SUBTITLE_AM = "It is all about small things that make a big difference";
-  readonly MY_SUMMARY_AM = "Let me start off with a simple introduction - My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In the United States I go by Surgen. My life is focused on happiness; If I am not happy, I make a change. I like to live every day as if it were my last day on Earth. Instead of focusing on things that I don't like or don't want to do, I would much rather remain positive and live my life to the fullest. The two things that bring me the most happiness are sports and software development. I also enjoy socializing and am always interested in meeting new people and making connections.";
+  readonly MY_SUMMARY_AM = "Let me start off with a simple introduction - My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In the United States I go by Surgen. My life is focused on happiness; If I am not happy, I make a change. I like to live every day as if it were my last day on Earth. I surround myself with positive people and make sure to distribute that positivity. The two things that bring me the most happiness are sports and software development. I also enjoy socializing, meeting new people and making new connections.";
 
   // Experience
   readonly EXPERIENCE = [
