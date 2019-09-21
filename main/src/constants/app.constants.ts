@@ -15,7 +15,7 @@ export class AppConstants {
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "https://srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building web, mobile and desktop applications. Below is a quick overview of my skills and certifications. Want to find out more about my experience?";
-  readonly MY_WHATS_NEW = "Aside from my full-time job, I am also tutoring computer science and participating in open source projects.";
+  readonly MY_WHATS_NEW = "Aside from my work, I have been preparing for SQL and C# certification.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
 
   // Links
@@ -148,7 +148,7 @@ export class AppConstants {
       caaOrganization: "Microsoft",
       caaImage: "microsoft-cert.png",
       caaDate: "In Progress",
-      caaLink: "#",
+      caaLink: "https://www.youracclaim.com/badges/8ba16afe-0be6-42dc-bc8e-60441ea37c97/linked_in_profile",
       caaDesc: "I am currently pursuing this certification which consists of two exams: 70-701 and 70-702. I have already passed the 701 and am currently studying for 702."
     },
     {
