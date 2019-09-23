@@ -1,11 +1,9 @@
-@import "../../../assets/css-constants/colors.scss";
-
 h1{
-  color: $silver-4;
+  color: var(--silver-4);
 }
 
 .errorTitle{
-  color: $red-2;
+  color: var(--red-2);
 }
 
 .errorSubTitle{

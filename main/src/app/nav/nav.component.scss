@@ -1,20 +1,79 @@
-@import "~src/assets/css-constants/colors.scss";
-
 .navbar-dark .navbar-nav .nav-link {
-  color: $silver-1;
+  color: var(--silver-1);
 }
 .activeNavLink {
-  color: $white !important;
+  color: var(--white) !important;
 }
 
 .activeNavLink i {
-  color: $white !important;
+  color: var(--white) !important;
 }
 
 .linkHover:hover a{
-  color: $white !important;
+  cursor: pointer;
+  color: var(--white) !important;
 }
 
 .linkHover:hover i{
-  color: $white !important;
+  color: var(--white) !important;
+}
+.dark-mode-switch {
+  display: flex;
+  justify-content: flex-end;
+}
+.slider {
+  background-color: var(--silver-13);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider:before {
+  background-color: var(--white);
+  bottom: 2px;
+  content: "";
+  height: 21px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 21px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+input:checked + .slider:before {
+  transform: translateX(21px);
+}
+input:checked + .slider {
+  background-color: var(--green-1);
+}
+.theme-switch {
+  display: inline-block;
+  height: 25px;
+  position: relative;
+  width: 50px;
+  margin-bottom: 0;
+}
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"] {
+  background-color: initial;
+  cursor: default;
+  -webkit-appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 0.5ex;
+  padding: initial;
+  border: initial;
+}
+.dark-mode-switch-text {
+  color: var(--silver-1);
+  padding-right: 10px;
 }

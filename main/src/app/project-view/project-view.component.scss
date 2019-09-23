@@ -1,21 +1,27 @@
-@import "~src/assets/css-constants/colors.scss";
-
 h1{
-  color: $silver-4;
+  color: var(--silver-4);
 }
 
 .projectTitle{
-  color: $silver-7;
+  color: var(--silver-7);
 }
 
 .container{
   padding-bottom: 30px;
 }
 
-.parentheses{
-  color: $blue-5;
+h3 {
+  color: var(--blue-5);
+}
+
+h3 a{
+  color: var(--blue-5);
 }
 
 .img-fluid:hover{
   opacity: 0.8;
+}
+
+.text-color{
+  color: var(--black-8);
 }

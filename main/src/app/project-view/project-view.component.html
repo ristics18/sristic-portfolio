@@ -13,13 +13,13 @@
     <div class="col-md-4">
       <h3><span class="parentheses">(</span><a href="{{project.projectUrl}}" target="_blank">Live View</a><span class="parentheses">)</span></h3>
       <h3 class="my-3 projectTitle">Project Description</h3>
-      <p style="text-align: justify">{{project.projectDesc}}</p>
+      <p style="text-align: justify" class="text-color">{{project.projectDesc}}</p>
       <h3 class="my-3 projectTitle">Date</h3>
-      <p>{{project.projectDate}}</p>
+      <p class="text-color">{{project.projectDate}}</p>
       <h3 class="my-3 projectTitle">Technologies</h3>
       <ul style="padding-left: 21px">
-        <li *ngFor="let tech of project.projectTechnologies">
-          {{tech.technologyName}}
+        <li *ngFor="let tech of project.projectTechnologies" class="text-color">
+          <span class="text-color">{{tech.technologyName}}</span>
         </li>
       </ul>
     </div>

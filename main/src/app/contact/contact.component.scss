@@ -1,19 +1,21 @@
-@import "~src/assets/css-constants/colors.scss";
-
 h1{
-  color: $silver-4;
+  color: var(--silver-4);
 }
 
 .sendMessageBtn {
-  background-color: $blue-8;
-  border-color: $blue-8;
+  background-color: var(--blue-8);
+  border-color: var(--blue-8);
 }
 
 .sendMessageBtn:hover {
-  background-color: $blue-11;
-  border-color: $blue-11;
+  background-color: var(--blue-11);
+  border-color: var(--blue-11);
 }
 
 .alert{
   margin-top: 10px;
+}
+
+.section {
+  background: var(--white-3);
 }

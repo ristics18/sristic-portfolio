@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AppConstants} from "../../constants/app.constants";
+import {ThemesService} from "../../services/themes/themes.service";
 
 @Component({
   selector: 'app-nav',
@@ -12,10 +13,9 @@ export class NavComponent implements OnInit {
   appTitle: string = 'Srdan Ristic Portfolio';
   logo: string = this.constants.MY_LOGO;
 
-  constructor(private constants: AppConstants) { }
+  constructor(private constants: AppConstants, private themesService: ThemesService) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   onClickLink = function(){
 
@@ -26,5 +26,15 @@ export class NavComponent implements OnInit {
     }
 
   };
+
+  onChangeMode = function(){
+    var themeModeText = document.getElementById('theme-mode').innerText;
+    themeModeText = themeModeText.trim();
+    if (themeModeText === 'Enable Dark Mode') {
+      this.themesService.switchTheme('dark');
+    } else {
+      this.themesService.switchTheme('light');
+    }
+  }
 
 }

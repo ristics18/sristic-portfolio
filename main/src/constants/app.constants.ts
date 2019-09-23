@@ -8,7 +8,7 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! Let me introduce myself - I am a hardworking and dependable individual who excels at learning new technologies and techniques, working individually or in a team setting, being able to complete multiple tasks simultaneously with high-quality results. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! My name is Srđan/Surgen, and I am a Software Developer. I am very enthusiastic about technologies and electronic devices. I love to explore and try new programming languages as well as other technologies and techniques involved in software development world. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
@@ -26,9 +26,9 @@ export class AppConstants {
 
   // About Me
   readonly MY_IMAGE_AM = "about-me.png";
-  readonly MY_TITLE_AM = "My life is driven by the word politeness";
-  readonly MY_SUBTITLE_AM = "It is all about small things that make a big difference";
-  readonly MY_SUMMARY_AM = "Let me start off with a simple introduction - My name is Srđan Ristic and I am from Serbia, a small country in Southeastern Europe. In the United States I go by Surgen. My life is focused on happiness; If I am not happy, I make a change. I like to live every day as if it were my last day on Earth. I surround myself with positive people and make sure to distribute that positivity. The two things that bring me the most happiness are sports and software development. I also enjoy socializing, meeting new people and making new connections.";
+  readonly MY_TITLE_AM = "Income seldom exceeds personal development";
+  readonly MY_SUBTITLE_AM = "Keep evolving";
+  readonly MY_SUMMARY_AM = "My name is Srđan Ristic and I am from Serbia, very cool and interesting country in Southeastern Europe. In the United States I go by Surgen. My life is focused on happiness; If I am not happy, I make a change. I like to live every day as if it was my last day on Earth. I make sure to surround myself with positive people, because it helps me grow and become more mature every day. I spend most of my time playing sports, socializing and doing software development. Love meeting new people and making new connections.";
 
   // Experience
   readonly EXPERIENCE = [
@@ -371,7 +371,7 @@ export class AppConstants {
       projectDesc: "This is a web project that is used for Twitter data collecting and visualizing based on hashtags provided.",
       projectDate: "Sep 2016 – Dec 2016",
       projectImage: "capstone-project.png",
-      projectUrl: "#",
+      projectUrl: "https://www.metropolitan.ac.rs/en/",
       projectTechnologies:[
         {
           technologyName: "Java"

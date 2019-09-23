@@ -1,17 +1,15 @@
-@import "~src/assets/css-constants/colors.scss";
-
 h1{
-  color: $silver-4;
+  color: var(--silver-4);
 }
 
 .loginBtn {
-  background-color: $blue-2;
-  border-color: $blue-2;
+  background-color: var(--blue-8);
+  border-color: var(--blue-8);
 }
 
 .loginBtn:hover {
-  background-color: $blue-1;
-  border-color: $blue-1;
+  background-color: var(--blue-11);
+  border-color: var(blue-11);
 }
 
 .alert{
@@ -20,4 +18,8 @@ h1{
 
 .container{
   height: 500px;
+}
+
+.section {
+  background: var(--white-3);
 }

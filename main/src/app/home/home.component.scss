@@ -1,5 +1,3 @@
-@import "~src/assets/css-constants/colors.scss";
-
 ///////////////////////
 //       Header      //
 ///////////////////////
@@ -24,13 +22,13 @@
   border-radius: .25rem;
 }
 .resumeBtn:hover, a.resumeBtn:hover {
-  background: $blue-8;
+  background: var(--blue-8);
   text-decoration: none;
 }
 
 .resumeBtn, a.resumeBtn {
-  background: $blue-7;
-  color: $white;
+  background: var(--blue-7);
+  color: var(--white);
   padding: 8px 15px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -40,9 +38,9 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 2px 4px 0 $black-2;
-  -moz-box-shadow: 0 2px 4px 0 $black-2;
-  box-shadow: 0 2px 4px 0 $black-2;
+  -webkit-box-shadow: 0 2px 4px 0 var(--black-2);
+  -moz-box-shadow: 0 2px 4px 0 var(--black-2);
+  box-shadow: 0 2px 4px 0 var(--black-2);
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -52,6 +50,9 @@
   position: absolute;
   z-index: 1;
   right: 20px;
+}
+#check-out-my-projects{
+  color: var(--blue-5);
 }
 
 ///////////////////////
@@ -67,12 +68,12 @@
   margin-bottom: 10px;
   font-size: 30px;
   text-align: center;
-  color: $silver-4;
+  color: var(--silver-4);
   font-weight: 500;
 }
 .skills-desc{
   text-align: center;
-  color: $silver-8;
+  color: var(--silver-8);
 }
 
 .skills-icon{
@@ -85,7 +86,7 @@
 
 .skills-sub-title{
   text-align: center;
-  color: $silver-9;
+  color: var(--silver-9);
   font-size: 22px;
   margin-top: 15px;
 }
@@ -95,7 +96,7 @@
 }
 
 .skills-icon-holder {
-  background: $blue-9;
+  background: var(--blue-9);
   width: 80px;
   height: 80px;
   padding-top: 1.25rem;
@@ -110,15 +111,23 @@
 }
 
 .text-secondary {
-  color: $silver-10 !important;
+  color: var(--silver-10) !important;
 }
 
 .skills-cat{
-  color: $silver-11;
+  color: var(--silver-11);
 }
 
 .text-primary {
-  color: $blue-9 !important;
+  color: var(--blue-9) !important;
+}
+
+.bg-white-skills-sub-blocks {
+  background-color: var(--white-2);
+}
+
+.section {
+  background: var(--white-3);
 }
 
 ///////////////////////
@@ -133,6 +142,10 @@
 .certification-img img {
   width: 100px;
   height: 100px;
+}
+
+.main-section-subtitle{
+  color: var(--black-5);
 }
 
 ///////////////////////

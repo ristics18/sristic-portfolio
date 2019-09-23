@@ -18,6 +18,14 @@
   margin-top: 20px;
 }
 
+.section {
+  background: var(--white-3);
+}
+
+.main-section-subtitle{
+  color: var(--black-5);
+}
+
 @media all and (max-width: 768px) {
   #profileImg {
     height: auto;
