@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60ce3c3c-c36a-4082-ab7f-88ff7cc8a28e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/app.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/app.constants.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/constants/app.constants.ts">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+            <state relative-caret-position="315">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -57,7 +38,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>education</find>
       <find>git</find>
       <find>cross</find>
       <find>this is</find>
@@ -87,6 +67,7 @@
       <find>I am</find>
       <find>My name</find>
       <find>main</find>
+      <find>C#</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -104,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/src/app/error/error.component.scss" />
         <option value="$PROJECT_DIR$/main/src/app/error/error.component.html" />
         <option value="$PROJECT_DIR$/main/src/services/globals/app.global.ts" />
         <option value="$PROJECT_DIR$/main/src/app/footer/footer.component.ts" />
@@ -155,6 +135,7 @@
         <option value="$PROJECT_DIR$/main/src/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/angular.json" />
         <option value="$PROJECT_DIR$/src/constants/app.constants.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -175,11 +156,6 @@
             <path>
               <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sristic-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sristic-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,12 +292,12 @@
       <workItem from="1570241960700" duration="470000" />
       <workItem from="1570242854631" duration="182000" />
       <workItem from="1570245995180" duration="251000" />
-      <workItem from="1570248972702" duration="31000" />
+      <workItem from="1570248972702" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172944000" />
+    <option name="totallyTimeSpent" value="173056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +345,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/src/app/app-routing.module.ts" />
     <entry file="file://$PROJECT_DIR$/main/src/polyfills.ts" />
     <entry file="file://$PROJECT_DIR$/main/src/test.ts" />
     <entry file="file://$PROJECT_DIR$/main/src/app/app.component.html" />
@@ -446,6 +421,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
