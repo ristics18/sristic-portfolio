@@ -144,20 +144,20 @@ export class AppConstants {
   // Certifications and Awards
   readonly CERTS_AND_AWARDS = [
     {
+      caaName: "AWS Certified Cloud Practitioner (NEW)",
+      caaOrganization: "Amazon Web Services",
+      caaImage: "cloud-practitioner-cert.png",
+      caaDate: "24 Oct 2019",
+      caaLink: "https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-10-24&ci=AWS01106959",
+      caaDesc: "I decided to learn more about cloud computing. AWS has always been on my mind, so I decided to pursue and successfully complete this certification."
+    },
+    {
       caaName: "MCSA SQL 2016 Database Development",
       caaOrganization: "Microsoft",
       caaImage: "microsoft-cert.png",
-      caaDate: "In Progress",
+      caaDate: "16 Oct 2018",
       caaLink: "https://www.youracclaim.com/badges/8ba16afe-0be6-42dc-bc8e-60441ea37c97/linked_in_profile",
-      caaDesc: "I am currently pursuing this certification which consists of two exams: 70-701 and 70-702. I have already passed the 701 and am currently studying for 702."
-    },
-    {
-      caaName: "Oracle Certified Associate, Java SE 8 Programmer",
-      caaOrganization: "Oracle",
-      caaImage: "oracle-cert.png",
-      caaDate: "14 Nov 2017",
-      caaLink: "https://www.youracclaim.com/badges/b0610484-16e7-43c4-af31-851ebfc2c002/linked_in_profile",
-      caaDesc: "I am a big fan of Java - one of the reasons why I pursued and successfully completed this certification. My future goal is to take Oracle Certified Professional exam."
+      caaDesc: "I am currently pursuing this certification which consists of two exams: 70-701 and 70-702. I have already passed the 701 and I am currently studying for 702."
     },
     {
       caaName: "University Award for Outstanding Student",
@@ -166,6 +166,14 @@ export class AppConstants {
       caaDate: "03 Apr 2018",
       caaLink: "https://www.lsus.edu/news-and-events/lsus-honors-its-best-of-the-best-at-academic-awards-convocation-2018",
       caaDesc: "I was chosen as an outstanding student at the end of my Master's studies at LSUS. I was honored to receive this award, as it demonstrated that hard works pays off."
+    },
+    {
+      caaName: "Oracle Certified Associate, Java SE 8 Programmer",
+      caaOrganization: "Oracle",
+      caaImage: "oracle-cert.png",
+      caaDate: "14 Nov 2017",
+      caaLink: "https://www.youracclaim.com/badges/b0610484-16e7-43c4-af31-851ebfc2c002/linked_in_profile",
+      caaDesc: "I am a big fan of Java - one of the reasons why I pursued and successfully completed this certification. My future goal is to take Oracle Certified Professional exam."
     }
   ];
 

@@ -24,6 +24,7 @@ export class ThemesService {
     '--silver-8',
     '--silver-10',
     '--silver-11',
+    '--silver-14',
     '--black-1',
     '--black-5',
     '--black-8'
