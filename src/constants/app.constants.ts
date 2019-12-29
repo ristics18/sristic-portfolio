@@ -129,7 +129,7 @@ export class AppConstants {
           skillName: "Maven/Gradle"
         },
         {
-          skillName: "AWS"
+          skillName: "AWS/Azure"
         },
         {
           skillName: "JIRA/Scrum"
