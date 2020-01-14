@@ -33,7 +33,7 @@ export class ContactComponent implements OnInit {
       return;
     }
 
-    this.http.postRequest('https://hooks.slack.com/services/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', {
+    this.http.postRequest('https://hooks.slack.com/services/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', {
       "text":
         "Name: " + this.messageForm.get('name').value +
         "\n Email: " +  this.messageForm.get('email').value +
