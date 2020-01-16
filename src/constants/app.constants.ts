@@ -8,7 +8,7 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! My name is Srđan/Surgen, and I am a Software Developer. I am very enthusiastic about technologies and electronic devices. I love to explore and try new programming languages as well as other technologies and techniques involved in software development world. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! My name is Srđan, and I am a Software Developer. I am very enthusiastic about technologies and electronic devices. I love to explore and try new programming languages as well as other technologies and techniques involved in software development world. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
