@@ -25,3 +25,12 @@ h3 a{
 .text-color{
   color: var(--black-8);
 }
+
+#projectViewImg {
+  border: 8px solid var(--white);
+}
+
+#projectViewVid {
+  object-fit: fill;
+  border: 8px solid var(--white);
+}

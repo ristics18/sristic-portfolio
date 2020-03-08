@@ -6,10 +6,11 @@ import {UtilitiesService} from "../utilities/utilities.service";
 })
 export class ThemesService {
 
-  public readonly DefaultTheme = 'light';
+  public readonly DefaultTheme = 'dark';
   private readonly ThemeCssVariables = [
     '--white-2',
     '--white-3',
+    '--white-4',
     '--blue-1',
     '--blue-2',
     '--blue-3',

@@ -39,6 +39,17 @@ h1{
   background-color: var(--white-3);
 }
 
+#projectImg {
+  border: 7px solid var(--white-4);
+}
+
+#projectVid {
+  height: 350px;
+  width : 100%;
+  object-fit: fill;
+  border: 7px solid var(--white-4);
+}
+
 @media all and (max-width: 768px) {
   #projectImg {
     height: auto;

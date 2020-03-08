@@ -8,14 +8,14 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "Hi! Thank you for taking your time to check out my website! My name is Srđan, and I am a Software Developer. I am very enthusiastic about technologies and electronic devices. I love to explore and try new programming languages as well as other technologies and techniques involved in software development world. I enjoy being involved in both front-end and back-end within the scope of a full software development cycle. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "I am a software developer who is very enthusiastic about variety of technologies. Doing full stack development is my passion. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
-  readonly MY_WEBSITE_URL = "https://srdanristic.com";
-  readonly MY_SKILLS_SUMMARY = "I have 3 years of experience building web, mobile and desktop applications. Below is a quick overview of my skills and certifications. Want to find out more about my experience?";
-  readonly MY_WHATS_NEW = "Aside from my work, I have been preparing for SQL and C# certifications.";
+  readonly MY_WEBSITE_URL = "www.srdanristic.com";
+  readonly MY_SKILLS_SUMMARY = "I am experienced in building web, mobile and desktop applications, as well as CI/CD and cloud engineering. Below is a quick overview of my skills and certifications.";
+  readonly MY_WHATS_NEW = "Aside from my work, I am actively learning AWS and Swift. Currently developing an iOS app.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
 
   // Links
@@ -28,7 +28,7 @@ export class AppConstants {
   readonly MY_IMAGE_AM = "about-me.png";
   readonly MY_TITLE_AM = "Income seldom exceeds personal development";
   readonly MY_SUBTITLE_AM = "Keep evolving";
-  readonly MY_SUMMARY_AM = "My name is Srđan Ristic and I am from Serbia, very cool and interesting country in Southeastern Europe. In the United States I go by Surgen. My life is focused on happiness; If I am not happy, I make a change. I like to live every day as if it was my last day on Earth. I make sure to surround myself with positive people, because it helps me grow and become more mature every day. I spend most of my time playing sports, socializing and doing software development. Love meeting new people and making new connections.";
+  readonly MY_SUMMARY_AM = "My name is Srđan Ristic and I am from Serbia, very cool and interesting country in Southeastern Europe. In the United States, I go by Surgen. I live my life by setting goals and pursuing my dreams. I spend most of my time playing sports, socializing and doing software development. Love meeting new people and making new connections.";
 
   // Experience
   readonly EXPERIENCE = [
@@ -36,7 +36,7 @@ export class AppConstants {
       experienceName: "Full Stack Developer",
       experienceCompany: "PioneerRx Pharmacy Software",
       experienceDate: "18 Jun 2018 - Present",
-      experienceDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers etc. My involvement is mainly focused on the core functions of the pharmacies and their stores. I am also working on some of the company's internal web projects."
+      experienceDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers etc. My involvement is mainly focused on the core functions of the pharmacies and their stores. I am also working on some of the company's internal projects."
     },
     {
       experienceName: "Graduate Research Assistant",
@@ -182,7 +182,7 @@ export class AppConstants {
     {
       id: 1,
       projectName: "PioneerRx Pharmacy Software",
-      projectDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers etc.",
+      projectDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers, POS etc.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
@@ -220,10 +220,10 @@ export class AppConstants {
     {
       id: 3,
       projectName: "Srdan Ristic Portfolio",
-      projectDesc: "This is my personal website. Here you can get to know me and find out more about my career.",
+      projectDesc: "This is my personal website where you can find out more about my career and life.",
       projectDate: "Nov 2018 - Feb 2019",
       projectImage: "portfolio.png",
-      projectUrl: "https://srdanristic.com",
+      projectUrl: "https://www.srdanristic.com",
       projectTechnologies:[
         {
           technologyName: "Angular 7"
