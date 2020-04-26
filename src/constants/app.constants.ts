@@ -209,7 +209,7 @@ export class AppConstants {
       projectName: "WordSym - iOS App",
       projectDesc: "Developed an iOS app that helps people learn new words from English dictionary. Core functionality of the app is to show an arbitrary word to a user and require them to provide a synonym for it. Once user provides a synonym, the app shows details about the word, as well as correct/incorrect response.",
       projectDate: "Feb 2020 – Apr 2020",
-      projectImage: "test.png",
+      projectImage: "wordSym.png",
       projectUrl: "",
       projectTechnologies:[
         {
