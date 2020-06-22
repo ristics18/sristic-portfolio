@@ -15,7 +15,7 @@ export class AppConstants {
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "www.srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I am experienced in building web, mobile and desktop applications, as well as CI/CD and cloud engineering. Below is a quick overview of my skills and certifications.";
-  readonly MY_WHATS_NEW = "Aside from my work, I am actively learning AWS and Swift. Currently developing an iOS app.";
+  readonly MY_WHATS_NEW = "Aside from my work, I am actively learning AWS.";
   readonly MY_RESUME = "Srdan Ristic Resume.pdf";
 
   // Links
@@ -144,7 +144,7 @@ export class AppConstants {
   // Certifications and Awards
   readonly CERTS_AND_AWARDS = [
     {
-      caaName: "AWS Certified Cloud Practitioner (NEW)",
+      caaName: "AWS Certified Cloud Practitioner",
       caaOrganization: "Amazon Web Services",
       caaImage: "cloud-practitioner-cert.png",
       caaDate: "24 Oct 2019",
@@ -152,15 +152,15 @@ export class AppConstants {
       caaDesc: "I decided to learn more about cloud computing. AWS has always been on my mind, so I decided to pursue and successfully complete this certification."
     },
     {
-      caaName: "MCSA SQL 2016 Database Development",
+      caaName: "MCSA SQL Database Development",
       caaOrganization: "Microsoft",
       caaImage: "microsoft-cert.png",
       caaDate: "16 Oct 2018",
       caaLink: "https://www.youracclaim.com/badges/8ba16afe-0be6-42dc-bc8e-60441ea37c97/linked_in_profile",
-      caaDesc: "I am currently pursuing this certification which consists of two exams: 70-701 and 70-702. I have already passed the 701 and I am currently studying for 702."
+      caaDesc: "Successfully completed 70-701 exam, which is part of the MCSA SQL certification. Since Microsoft is retiring this certification, I decided not to move forward with other exams."
     },
     {
-      caaName: "University Award for Outstanding Student",
+      caaName: "Outstanding Student Award",
       caaOrganization: "Louisiana State University Shreveport",
       caaImage: "lsus-award.png",
       caaDate: "03 Apr 2018",
@@ -168,7 +168,15 @@ export class AppConstants {
       caaDesc: "I was chosen as an outstanding student at the end of my Master's studies at LSUS. I was honored to receive this award, as it demonstrated that hard works pays off."
     },
     {
-      caaName: "Oracle Certified Associate, Java SE 8 Programmer",
+      caaName: "Medical Publication",
+      caaOrganization: "LSU Health Sciences Center (Shreveport)",
+      caaImage: "medical-publication.png",
+      caaDate: "18 May 2018",
+      caaLink: "http://www.wjem.com.cn/upload/admin/201808/5cf7d726373304a5d84bb06bc15226be.pdf",
+      caaDesc: "Worked on analyzing patient data sets in order to evaluate the impact of sedative agent selection on morbidity, mortality, and length of stay."
+    },
+    {
+      caaName: "Oracle Java Certified Associate",
       caaOrganization: "Oracle",
       caaImage: "oracle-cert.png",
       caaDate: "14 Nov 2017",
