@@ -144,11 +144,19 @@ export class AppConstants {
   // Certifications and Awards
   readonly CERTS_AND_AWARDS = [
     {
+      caaName: "AWS Certified Developer Associate",
+      caaOrganization: "Amazon Web Services",
+      caaImage: "developer-associate-cert.png",
+      caaDate: "14 Aug 2020",
+      caaLink: "https://www.youracclaim.com/earner/earned/badge/c6050a5e-126c-4848-8f87-e3f4367f857d",
+      caaDesc: "After doing some projects in AWS and diving deep into roots of AWS services, my motivation led me to pursuing this certification."
+    },
+    {
       caaName: "AWS Certified Cloud Practitioner",
       caaOrganization: "Amazon Web Services",
       caaImage: "cloud-practitioner-cert.png",
       caaDate: "24 Oct 2019",
-      caaLink: "https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-10-24&ci=AWS01106959",
+      caaLink: "https://www.youracclaim.com/earner/earned/badge/712e83a4-69ef-48b6-853a-17f60e58bf54",
       caaDesc: "I decided to learn more about cloud computing. AWS has always been on my mind, so I decided to pursue and successfully complete this certification."
     },
     {
