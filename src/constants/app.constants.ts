@@ -148,7 +148,7 @@ export class AppConstants {
       caaOrganization: "Amazon Web Services",
       caaImage: "developer-associate-cert.png",
       caaDate: "14 Aug 2020",
-      caaLink: "https://www.youracclaim.com/earner/earned/badge/c6050a5e-126c-4848-8f87-e3f4367f857d",
+      caaLink: "https://www.youracclaim.com/badges/c6050a5e-126c-4848-8f87-e3f4367f857d?source=linked_in_profile",
       caaDesc: "After doing some projects in AWS and diving deep into roots of AWS services, my motivation led me to pursuing this certification."
     },
     {
@@ -156,7 +156,7 @@ export class AppConstants {
       caaOrganization: "Amazon Web Services",
       caaImage: "cloud-practitioner-cert.png",
       caaDate: "24 Oct 2019",
-      caaLink: "https://www.youracclaim.com/earner/earned/badge/712e83a4-69ef-48b6-853a-17f60e58bf54",
+      caaLink: "https://www.youracclaim.com/badges/712e83a4-69ef-48b6-853a-17f60e58bf54?source=linked_in_profile",
       caaDesc: "I decided to learn more about cloud computing. AWS has always been on my mind, so I decided to pursue and successfully complete this certification."
     },
     {
