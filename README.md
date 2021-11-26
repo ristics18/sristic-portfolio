@@ -4,7 +4,7 @@ Hi! Welcome to repository that represents my personal website. I have developed 
 
 ## Deployment Pipeline
 
-![alt text](https://srdanristic.com/assets/img/projects/portfolio.png)
+![alt text](src/assets/img/projects/portfolio.png)
 
 ## Links
 
