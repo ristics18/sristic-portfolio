@@ -16,7 +16,7 @@ export class AppConstants {
   readonly MY_WEBSITE_URL = "www.srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I am experienced in building web, mobile and desktop applications, as well as CI/CD and cloud engineering. Below is a quick overview of my skills and certifications.";
   readonly MY_WHATS_NEW = "Aside from my work, I am actively learning AWS.";
-  readonly MY_RESUME = "Srdan Ristic Resume.pdf";
+  readonly MY_RESUME = "Srdan_Ristic_Resume.pdf";
 
   // Links
   readonly MY_GITHUB = "https://github.com/ristics18";
@@ -180,7 +180,7 @@ export class AppConstants {
       caaOrganization: "LSU Health Sciences Center (Shreveport)",
       caaImage: "medical-publication.png",
       caaDate: "18 May 2018",
-      caaLink: "http://www.wjem.com.cn/upload/admin/201808/5cf7d726373304a5d84bb06bc15226be.pdf",
+      caaLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6117539/",
       caaDesc: "Worked on analyzing patient data sets in order to evaluate the impact of sedative agent selection on morbidity, mortality, and length of stay."
     },
     {
@@ -198,30 +198,64 @@ export class AppConstants {
     {
       id: 1,
       projectName: "PioneerRx Pharmacy Software",
-      projectDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers, POS etc.",
+      projectDesc: "This is my current job where I develop software for independent pharmacies. My main role is to implement, design and manage projects using variety of technologies.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
       projectTechnologies:[
         {
-          technologyName: "C#"
+          technologyName: "C#, SQL, JavaScript"
         },
         {
-          technologyName: ".NET"
+          technologyName: ".NET, Entity"
         },
         {
-          technologyName: "SQL Server, MariaDB"
+          technologyName: "SQL Server"
         },
         {
-          technologyName: "HTML, CSS, JavaScript"
+          technologyName: "HTML, CSS"
         },
         {
           technologyName: "TFS/Git"
+        },
+        {
+          technologyName: "Azure, DevOps"
+        },
+        {
+          technologyName: "Powershell"
         }
       ]
     },
     {
       id: 2,
+      projectName: "Soccer Notifier",
+      projectDesc: "Developed web application that allows soccer players to subscribe to their teams with phone numbers and/or email addresses. The system consumes the subscriptions and notifies players based on already built games schedule.",
+      projectDate: "Aug 2021 – Oct 2021",
+      projectImage: "soccerNotifier.png",
+      projectUrl: "https://soccernotifier.s3.us-east-1.amazonaws.com/index.html",
+      projectTechnologies:[
+        {
+          technologyName: "Angular 12"
+        },
+        {
+          technologyName: "AWS DynamoDB"
+        },
+        {
+          technologyName: "AWS Lambda"
+        },
+        {
+          technologyName: "AWS API Gateway"
+        },
+        {
+          technologyName: "AWS CloudWatch Events"
+        },
+        {
+          technologyName: "Git"
+        }
+      ]
+    },
+    {
+      id: 3,
       projectName: "WordSym - iOS App",
       projectDesc: "Developed an iOS app that helps people learn new words from English dictionary. Core functionality of the app is to show an arbitrary word to a user and require them to provide a synonym for it. Once user provides a synonym, the app shows details about the word, as well as correct/incorrect response.",
       projectDate: "Feb 2020 – Apr 2020",
@@ -240,7 +274,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 3,
+      id: 4,
       projectName: "Oracle Certified Associate Java SE 8 Practice Exams",
       projectDesc: "I have created this Udemy course with an idea to develop practice exams that will help students and developers prepare for OCA Java SE 8 Programmer I (1Z0-808) certification or Java interviews.",
       projectDate: "February 2019 - April 2019",
@@ -253,7 +287,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 4,
+      id: 5,
       projectName: "Srdan Ristic Portfolio",
       projectDesc: "This is my personal website where you can find out more about my career and life.",
       projectDate: "Nov 2018 - Feb 2019",
@@ -275,7 +309,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 5,
+      id: 6,
       projectName: "Advisor's Tool",
       projectDesc: "This is a system developed at LSUS. The idea of the system is to generate curriculum worksheets based on student's transcript.",
       projectDate: "Aug 2017 - May 2018",
@@ -303,7 +337,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 6,
+      id: 7,
       projectName: "Education Tool",
       projectDesc: "This is a system developed with the idea to help medical students at LSUHSC learn by going through cases provided by their professors.",
       projectDate: "Aug 2017 – May 2018",
@@ -331,7 +365,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 7,
+      id: 8,
       projectName: "Laboratory for Advanced Biomedical Informatics",
       projectDesc: "This is when I worked as Graduate Research Assistant at LSUS. My work was focused on biomedical informatics projects.",
       projectDate: "Feb 2017 – May 2018",
@@ -356,7 +390,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 8,
+      id: 9,
       projectName: "Orbit",
       projectDesc: "This is a mobile application that helps school systems with the communication between parents and teachers.",
       projectDate: "Aug 2017 – May 2018",
@@ -384,7 +418,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 9,
+      id: 10,
       projectName: "High Altitude Solar Eclipse Observer",
       projectDesc: "This project consisted of creating and developing a payload for NASA competition that took place in Palestine, TX.",
       projectDate: "Jan 2017 – May 2017",
@@ -409,7 +443,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 10,
+      id: 11,
       projectName: "Twitter Data Collecting, Analyzing and Visualization",
       projectDesc: "This is a web project that is used for Twitter data collecting and visualizing based on hashtags provided.",
       projectDate: "Sep 2016 – Dec 2016",
@@ -444,6 +478,26 @@ export class AppConstants {
     },
 
   ];
+
+// Hobbies
+readonly HOBBIES = [
+  {
+    hobbieName: "Skiing",
+    hobbieImage: "skiing.png"
+  },
+  {
+    hobbieName: "Surfing",
+    hobbieImage: "surfing.png"
+  },
+  {
+    hobbieName: "Skydiving",
+    hobbieImage: "skydiving.png"
+  },
+  {
+    hobbieName: "Basketball",
+    hobbieImage: "basketball.png"
+  }
+]
 
   // Footer
   readonly COPYRIGHT = "Copyright © " + new Date().getFullYear() + " - Created by Srdan Ristic";
