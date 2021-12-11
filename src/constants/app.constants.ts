@@ -483,19 +483,23 @@ export class AppConstants {
 readonly HOBBIES = [
   {
     hobbieName: "Skiing",
-    hobbieImage: "skiing.png"
+    hobbieImage: "skiing.png",
+    hobbieThumbnail: "skiing_thumbnail.png"
   },
   {
     hobbieName: "Surfing",
-    hobbieImage: "surfing.png"
+    hobbieImage: "surfing.png",
+    hobbieThumbnail: "surfing_thumbnail.png"
   },
   {
     hobbieName: "Skydiving",
-    hobbieImage: "skydiving.png"
+    hobbieImage: "skydiving.png",
+    hobbieThumbnail: "skydiving_thumbnail.png"
   },
   {
     hobbieName: "Basketball",
-    hobbieImage: "basketball.png"
+    hobbieImage: "basketball.png",
+    hobbieThumbnail: "basketball_thumbnail.png"
   }
 ]
 

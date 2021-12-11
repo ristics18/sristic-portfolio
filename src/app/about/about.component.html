@@ -63,13 +63,13 @@
 <div class="wrapper container">
   <div class="main">
     <section class="main-section section">
-      <h2 class="section-title"><i class="fa fa-plane" aria-hidden="true"></i> Hobbies</h2>
+      <h2 class="section-title"><i class="fa fa-smile-o" aria-hidden="true"></i> Hobbies</h2>
       <div class="row">
         <div class="item col-12 col-md-4" *ngFor="let hobbie of hobbies">
           <div class="item-inner">
             <h3 class="main-section-title">{{hobbie.hobbieName}}</h3>
             <div class="main-section-desc" style="padding-top: 10px;">
-              <a href="/assets/img/hobbies/{{hobbie.hobbieImage}}" target="blank"><img height="300" width="300" alt="No Image" src="/assets/img/hobbies/{{hobbie.hobbieImage}}" /></a>
+              <a href="/assets/img/hobbies/{{hobbie.hobbieImage}}" target="blank"><img height="300" width="300" alt="No Image" src="/assets/img/hobbies/thumbnails/{{hobbie.hobbieThumbnail}}" /></a>
             </div>
           </div>
         </div>
