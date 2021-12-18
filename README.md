@@ -10,7 +10,7 @@ Hi! Welcome to repository that represents my personal website. I have developed 
 
 Website: https://srdanristic.com
 
-Resume: https://srdanristic.com/assets/files/Srdan%20Ristic%20Resume.pdf
+Resume: https://srdanristic.com/assets/files/Srdan_Ristic_Resume.pdf
 
 LinkedIn: https://www.linkedin.com/in/srdan-ristic-87577580/
 
