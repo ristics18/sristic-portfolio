@@ -228,6 +228,15 @@ export class AppConstants {
     },
     {
       id: 2,
+      projectName: "MetTalks",
+      projectDesc: "I was invited to be a guest speaker at the MetTalks event. This event was organized by University Metropolitan, which is the university where I graduated with my Bachelors Degree in IT. Topic of discussion was 'Studying in Serbia vs studying in foreign countries'. I was honored to be invited by my former mentor dr Miroslava Raspopovic Milic.",
+      projectDate: "Dec 2021",
+      projectImage: "metTalks.png",
+      projectUrl: "https://www.metropolitan.ac.rs/dogadjaji/met-talks-it-webinar-studiranje-u-srbiji-vs-studiranje-u-inostranstvu/",
+      projectTechnologies:[]
+    },
+    {
+      id: 3,
       projectName: "Soccer Notifier",
       projectDesc: "Developed web application that allows soccer players to subscribe to their teams with phone numbers and/or email addresses. The system consumes the subscriptions and notifies players based on already built games schedule.",
       projectDate: "Aug 2021 – Oct 2021",
@@ -255,7 +264,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 3,
+      id: 4,
       projectName: "WordSym - iOS App",
       projectDesc: "Developed an iOS app that helps people learn new words from English dictionary. Core functionality of the app is to show an arbitrary word to a user and require them to provide a synonym for it. Once user provides a synonym, the app shows details about the word, as well as correct/incorrect response.",
       projectDate: "Feb 2020 – Apr 2020",
@@ -274,7 +283,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 4,
+      id: 5,
       projectName: "Oracle Certified Associate Java SE 8 Practice Exams",
       projectDesc: "I have created this Udemy course with an idea to develop practice exams that will help students and developers prepare for OCA Java SE 8 Programmer I (1Z0-808) certification or Java interviews.",
       projectDate: "February 2019 - April 2019",
@@ -287,7 +296,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 5,
+      id: 6,
       projectName: "Srdan Ristic Portfolio",
       projectDesc: "This is my personal website where you can find out more about my career and life.",
       projectDate: "Nov 2018 - Feb 2019",
@@ -309,7 +318,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 6,
+      id: 7,
       projectName: "Advisor's Tool",
       projectDesc: "This is a system developed at LSUS. The idea of the system is to generate curriculum worksheets based on student's transcript.",
       projectDate: "Aug 2017 - May 2018",
@@ -337,7 +346,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 7,
+      id: 8,
       projectName: "Education Tool",
       projectDesc: "This is a system developed with the idea to help medical students at LSUHSC learn by going through cases provided by their professors.",
       projectDate: "Aug 2017 – May 2018",
@@ -365,7 +374,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 8,
+      id: 9,
       projectName: "Laboratory for Advanced Biomedical Informatics",
       projectDesc: "This is when I worked as Graduate Research Assistant at LSUS. My work was focused on biomedical informatics projects.",
       projectDate: "Feb 2017 – May 2018",
@@ -390,7 +399,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 9,
+      id: 10,
       projectName: "Orbit",
       projectDesc: "This is a mobile application that helps school systems with the communication between parents and teachers.",
       projectDate: "Aug 2017 – May 2018",
@@ -418,7 +427,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 10,
+      id: 11,
       projectName: "High Altitude Solar Eclipse Observer",
       projectDesc: "This project consisted of creating and developing a payload for NASA competition that took place in Palestine, TX.",
       projectDate: "Jan 2017 – May 2017",
@@ -443,7 +452,7 @@ export class AppConstants {
       ]
     },
     {
-      id: 11,
+      id: 12,
       projectName: "Twitter Data Collecting, Analyzing and Visualization",
       projectDesc: "This is a web project that is used for Twitter data collecting and visualizing based on hashtags provided.",
       projectDate: "Sep 2016 – Dec 2016",
