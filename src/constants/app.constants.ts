@@ -8,14 +8,14 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "I am a software developer who is very enthusiastic about variety of technologies. Doing full stack development is my passion. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx Pharmacy Software in Shreveport, LA.";
+  readonly MY_SUMMARY = "I am a software developer who is very enthusiastic about variety of technologies. Doing full stack development is my passion. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx in Shreveport, LA.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "www.srdanristic.com";
   readonly MY_SKILLS_SUMMARY = "I am experienced in building web, mobile and desktop applications, as well as CI/CD and cloud engineering. Below is a quick overview of my skills and certifications.";
-  readonly MY_WHATS_NEW = "Aside from my work, I am actively learning AWS.";
+  readonly MY_WHATS_NEW = "I am currently working on achiving my biggest item on the bucket list, which is visiting all 50 states in the U.S.";
   readonly MY_RESUME = "Srdan_Ristic_Resume.pdf";
 
   // Links
@@ -34,9 +34,9 @@ export class AppConstants {
   readonly EXPERIENCE = [
     {
       experienceName: "Full Stack Developer",
-      experienceCompany: "PioneerRx Pharmacy Software",
+      experienceCompany: "PioneerRx",
       experienceDate: "18 Jun 2018 - Present",
-      experienceDesc: "This is my current job where I develop software for independent pharmacies, which deals with patients, prescriptions, prescribers etc. My involvement is mainly focused on the core functions of the pharmacies and their stores. I am also working on some of the company's internal projects."
+      experienceDesc: "This is my current job where I develop software for independent pharmacies. My main focus is on the implementation of data synchronization processes between pharmacies. I am heavily involved in the Azure DevOps development. I have recently stepped into a leading role, managing two engineering teams."
     },
     {
       experienceName: "Graduate Research Assistant",
@@ -81,7 +81,7 @@ export class AppConstants {
       skillImage: "front-end.svg",
       skills: [
         {
-          skillName: "HTML/CSS/SASS"
+          skillName: "HTML/CSS"
         },
         {
           skillName: "Bootstrap 3/4"
@@ -93,7 +93,7 @@ export class AppConstants {
           skillName: "NodeJS"
         },
         {
-          skillName: "jQuery"
+          skillName: "WinForms"
         }
       ]
     },
@@ -102,16 +102,16 @@ export class AppConstants {
       skillImage: "back-end.svg",
       skills: [
         {
-          skillName: "Java/C#"
+          skillName: "C#"
         },
         {
-          skillName: "Spring/.NET"
+          skillName: ".NET"
         },
         {
-          skillName: "MySQL/SQL Server"
+          skillName: "SQL"
         },
         {
-          skillName: "PHP"
+          skillName: "Powershell"
         },
         {
           skillName: "Python"
@@ -123,19 +123,19 @@ export class AppConstants {
       skillImage: "other.svg",
       skills: [
         {
-          skillName: "Git/TFS/Subversion"
-        },
-        {
-          skillName: "Maven/Gradle"
+          skillName: "Git/TFS"
         },
         {
           skillName: "AWS/Azure"
         },
         {
-          skillName: "JIRA/Scrum"
+          skillName: "DevOps"
         },
         {
-          skillName: "Data Mining"
+          skillName: "NuGet"
+        },
+        {
+          skillName: "Squirrel"
         }
       ]
     }
@@ -143,6 +143,14 @@ export class AppConstants {
 
   // Certifications and Awards
   readonly CERTS_AND_AWARDS = [
+    {
+      caaName: "Microsoft Azure Fundamentals",
+      caaOrganization: "Microsoft",
+      caaImage: "azure-fundamentals-cert.png",
+      caaDate: "21 Dec 2022",
+      caaLink: "https://www.credly.com/badges/db97c9d0-8434-4342-b6cf-24f83768d1b7",
+      caaDesc: "I started getting more involved with Azure projects at PioneerRx. This has motivated me to pursue this certification and get a solid understanding of Azure cloud fundamentals."
+    },
     {
       caaName: "AWS Certified Developer Associate",
       caaOrganization: "Amazon Web Services",
@@ -197,8 +205,8 @@ export class AppConstants {
   readonly PROJECTS = [
     {
       id: 1,
-      projectName: "PioneerRx Pharmacy Software",
-      projectDesc: "This is my current job where I develop software for independent pharmacies. My main role is to implement, design and manage projects using variety of technologies.",
+      projectName: "PioneerRx",
+      projectDesc: "This is my current job where I develop software for independent pharmacies. My main focus is on the implementation of data synchronization processes between pharmacies. I am heavily involved in the Azure DevOps development. I have recently stepped into a leading role, managing two engineering teams.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
@@ -216,10 +224,10 @@ export class AppConstants {
           technologyName: "HTML, CSS"
         },
         {
-          technologyName: "TFS/Git"
+          technologyName: "Git/TFS"
         },
         {
-          technologyName: "Azure, DevOps"
+          technologyName: "Azure (DevOps)"
         },
         {
           technologyName: "Powershell"
@@ -233,7 +241,12 @@ export class AppConstants {
       projectDate: "Dec 2021",
       projectImage: "metTalks.png",
       projectUrl: "https://www.metropolitan.ac.rs/dogadjaji/met-talks-it-webinar-studiranje-u-srbiji-vs-studiranje-u-inostranstvu/",
-      projectTechnologies:[]
+      projectTechnologies:
+      [
+        {
+          technologyName: "N/A"
+        }
+      ]
     },
     {
       id: 3,
@@ -488,30 +501,6 @@ export class AppConstants {
 
   ];
 
-// Hobbies
-readonly HOBBIES = [
-  {
-    hobbieName: "Skiing",
-    hobbieImage: "skiing.png",
-    hobbieThumbnail: "skiing_thumbnail.png"
-  },
-  {
-    hobbieName: "Surfing",
-    hobbieImage: "surfing.png",
-    hobbieThumbnail: "surfing_thumbnail.png"
-  },
-  {
-    hobbieName: "Skydiving",
-    hobbieImage: "skydiving.png",
-    hobbieThumbnail: "skydiving_thumbnail.png"
-  },
-  {
-    hobbieName: "Basketball",
-    hobbieImage: "basketball.png",
-    hobbieThumbnail: "basketball_thumbnail.png"
-  }
-]
-
   // Footer
-  readonly COPYRIGHT = "Copyright © " + new Date().getFullYear() + " - Created by Srdan Ristic";
+  readonly COPYRIGHT = "Copyright © 2018 - " + new Date().getFullYear() + " - Created by Srdan Ristic";
 }

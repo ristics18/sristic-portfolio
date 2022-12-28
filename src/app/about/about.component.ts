@@ -15,7 +15,6 @@ export class AboutComponent implements OnInit {
   mySummaryAm = this.constants.MY_SUMMARY_AM;
   experiences = this.constants.EXPERIENCE;
   educations = this.constants.EDUCATION;
-  hobbies = this.constants.HOBBIES;
 
   constructor(private constants: AppConstants) { }
 
