@@ -25,9 +25,9 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "node-sass": "^4.14.1",
     "popper.js": "^1.14.5",
     "rxjs": "~6.3.3",
+    "sass": "^1.58.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

@@ -7,8 +7,8 @@ export class AppConstants {
   readonly MY_NAME = "Srdan Ristic";
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
-  readonly MY_TITLE = "Full Stack Developer";
-  readonly MY_SUMMARY = "I am a software developer who is very enthusiastic about variety of technologies. Doing full stack development is my passion. I have built various cross-platform applications and enjoyed working on every single one of them. I am currently working for PioneerRx in Shreveport, LA.";
+  readonly MY_TITLE = "Software Engineer";
+  readonly MY_SUMMARY = "Software development is my passion and I enjoy working on it on a daily bases. I built various cross-platform applications throughout my career and enjoyed working on every single one of them. I am currently employed by PioneerRx, helping save and revitalize independent pharmacies in United States.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
@@ -33,10 +33,16 @@ export class AppConstants {
   // Experience
   readonly EXPERIENCE = [
     {
-      experienceName: "Full Stack Developer",
+      experienceName: "Software Development Team Lead",
       experienceCompany: "PioneerRx",
-      experienceDate: "18 Jun 2018 - Present",
-      experienceDesc: "This is my current job where I develop software for independent pharmacies. My main focus is on the implementation of data synchronization processes between pharmacies. I am heavily involved in the Azure DevOps development. I have recently stepped into a leading role, managing two engineering teams."
+      experienceDate: "02 Jan 2023 - Present",
+      experienceDesc: "Currently, I am leading two offshore teams (one from India and one from Argentina), total of five developers. Our main focus is the improvement of the PioneerRx core application. Our projects include: upgrading old libraries and NuGet packages with the newest ones, fixing major issues in the application, implementing new features etc."
+    },
+    {
+      experienceName: "Software Developer",
+      experienceCompany: "PioneerRx",
+      experienceDate: "18 Jun 2018 - 02 Jan 2023",
+      experienceDesc: "Developed desktop application for independent pharmacies using C# and SQL technologies. My main focus was on the implementation of data synchronization processes between pharmacies. I was also involved in the Azure DevOps CI/CD development."
     },
     {
       experienceName: "Graduate Research Assistant",
@@ -206,13 +212,13 @@ export class AppConstants {
     {
       id: 1,
       projectName: "PioneerRx",
-      projectDesc: "This is my current job where I develop software for independent pharmacies. My main focus is on the implementation of data synchronization processes between pharmacies. I am heavily involved in the Azure DevOps development. I have recently stepped into a leading role, managing two engineering teams.",
+      projectDesc: "Started off as a Software Developer for PioneerRx, then transitioned into the Software Development Team Lead role. Currently, I am leading two offshore teams (one from India and one from Argentina), total of five developers. Our main focus is the improvement of the PioneerRx core application. Our projects include: upgrading old libraries and NuGet packages with the newest ones, fixing major issues in the application, implementing new features etc.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
       projectTechnologies:[
         {
-          technologyName: "C#, SQL, JavaScript"
+          technologyName: "C#"
         },
         {
           technologyName: ".NET, Entity"
@@ -224,7 +230,7 @@ export class AppConstants {
           technologyName: "HTML, CSS"
         },
         {
-          technologyName: "Git/TFS"
+          technologyName: "Git"
         },
         {
           technologyName: "Azure (DevOps)"
