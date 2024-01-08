@@ -13,9 +13,8 @@ export class AppConstants {
   readonly MY_PHONE = "318-900-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
-  readonly MY_WEBSITE_URL = "www.srdanristic.com";
-  readonly MY_SKILLS_SUMMARY = "I am experienced in building web, mobile and desktop applications, as well as CI/CD and cloud engineering. Below is a quick overview of my skills and certifications.";
-  readonly MY_WHATS_NEW = "I am currently working on achiving my biggest item on the bucket list, which is visiting all 50 states in the U.S.";
+  readonly MY_WEBSITE_URL = "srdanristic.com";
+  readonly MY_WHATS_NEW = "I am actively pursuing the top goal on my bucket list: embarking on an exciting journey to explore and experience each of the 50 states in the U.S.";
   readonly MY_RESUME = "Srdan_Ristic_Resume.pdf";
 
   // Links
@@ -36,7 +35,7 @@ export class AppConstants {
       experienceName: "Software Development Team Lead",
       experienceCompany: "PioneerRx",
       experienceDate: "02 Jan 2023 - Present",
-      experienceDesc: "Currently, I am leading two offshore teams (one from India and one from Argentina), total of five developers. Our main focus is the improvement of the PioneerRx core application. Our projects include: upgrading old libraries and NuGet packages with the newest ones, fixing major issues in the application, implementing new features etc."
+      experienceDesc: "I am leading a team of five offshore developers, balancing technical and project management responsibilities to ensure the success of key initiatives. My role also involves collaborating closely with senior management and other team leads, contributing to the company's long-term goals and innovative strategies."
     },
     {
       experienceName: "Software Developer",
@@ -93,7 +92,7 @@ export class AppConstants {
           skillName: "Bootstrap 3/4"
         },
         {
-          skillName: "JavaScript/Angular"
+          skillName: "Angular"
         },
         {
           skillName: "NodeJS"
@@ -111,13 +110,13 @@ export class AppConstants {
           skillName: "C#"
         },
         {
-          skillName: ".NET"
+          skillName: "ASP.NET"
+        },
+        {
+          skillName: "Java"
         },
         {
           skillName: "SQL"
-        },
-        {
-          skillName: "Powershell"
         },
         {
           skillName: "Python"
@@ -135,13 +134,13 @@ export class AppConstants {
           skillName: "AWS/Azure"
         },
         {
-          skillName: "DevOps"
+          skillName: "Docker"
         },
         {
-          skillName: "NuGet"
+          skillName: "Kafka"
         },
         {
-          skillName: "Squirrel"
+          skillName: "Powershell"
         }
       ]
     }
@@ -212,7 +211,7 @@ export class AppConstants {
     {
       id: 1,
       projectName: "PioneerRx",
-      projectDesc: "Started off as a Software Developer for PioneerRx, then transitioned into the Software Development Team Lead role. Currently, I am leading two offshore teams (one from India and one from Argentina), total of five developers. Our main focus is the improvement of the PioneerRx core application. Our projects include: upgrading old libraries and NuGet packages with the newest ones, fixing major issues in the application, implementing new features etc.",
+      projectDesc: "Initially joining PioneerRx as a Software Developer, I progressed to the role of Software Development Team Lead. Presently, I spearhead an offshore team comprising five skilled developers. Our primary objective is to enhance and construct a robust, fail-safe application tailored for independent pharmacies, ensuring superior performance and reliability.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
       projectUrl: "https://www.pioneerrx.com",
