@@ -8,9 +8,9 @@ export class AppConstants {
   readonly MY_LOGO = "initials-logo.png";
   readonly MY_IMAGE = "profile.png";
   readonly MY_TITLE = "Software Engineer";
-  readonly MY_SUMMARY = "Software development is my passion and I enjoy working on it on a daily bases. I built various cross-platform applications throughout my career and enjoyed working on every single one of them. I am currently employed by PioneerRx, helping save and revitalize independent pharmacies in United States.";
+  readonly MY_SUMMARY = "Software development is my passion and I enjoy working on it on a daily bases. I built various cross-platform applications throughout my career and enjoyed working on every single one of them. I am currently employed by RedSail Technologies (PioneerRx), helping save and revitalize independent pharmacies in United States.";
   readonly MY_EMAIL = "srdanristic2@gmail.com";
-  readonly MY_PHONE = "318-900-1294";
+  readonly MY_PHONE = "318-944-1294";
   readonly MY_CITY = "Shreveport, LA";
   readonly MY_SKYPE = "srlepn";
   readonly MY_WEBSITE_URL = "srdanristic.com";
@@ -33,7 +33,7 @@ export class AppConstants {
   readonly EXPERIENCE = [
     {
       experienceName: "Software Development Team Lead",
-      experienceCompany: "PioneerRx",
+      experienceCompany: "RedSail Technologies (PioneerRx)",
       experienceDate: "02 Jan 2023 - Present",
       experienceDesc: "I am leading a team of five offshore developers, balancing technical and project management responsibilities to ensure the success of key initiatives. My role also involves collaborating closely with senior management and other team leads, contributing to the company's long-term goals and innovative strategies."
     },
@@ -89,7 +89,7 @@ export class AppConstants {
           skillName: "HTML/CSS"
         },
         {
-          skillName: "Bootstrap 3/4"
+          skillName: "Bootstrap"
         },
         {
           skillName: "Angular"
@@ -131,13 +131,13 @@ export class AppConstants {
           skillName: "Git/TFS"
         },
         {
-          skillName: "AWS/Azure"
+          skillName: "Azure/AWS"
         },
         {
-          skillName: "Docker"
+          skillName: "Docker/Kubernetes"
         },
         {
-          skillName: "Kafka"
+          skillName: "Kafka/RabbitMQ"
         },
         {
           skillName: "Powershell"
@@ -154,7 +154,7 @@ export class AppConstants {
       caaImage: "azure-fundamentals-cert.png",
       caaDate: "21 Dec 2022",
       caaLink: "https://www.credly.com/badges/db97c9d0-8434-4342-b6cf-24f83768d1b7",
-      caaDesc: "I started getting more involved with Azure projects at PioneerRx. This has motivated me to pursue this certification and get a solid understanding of Azure cloud fundamentals."
+      caaDesc: "I started getting more involved with Azure projects at RedSail Technologies (PioneerRx). This has motivated me to pursue this certification and get a solid understanding of Azure cloud fundamentals."
     },
     {
       caaName: "AWS Certified Developer Associate",
@@ -210,7 +210,7 @@ export class AppConstants {
   readonly PROJECTS = [
     {
       id: 1,
-      projectName: "PioneerRx",
+      projectName: "RedSail Technologies (PioneerRx)",
       projectDesc: "Initially joining PioneerRx as a Software Developer, I progressed to the role of Software Development Team Lead. Presently, I spearhead an offshore team comprising five skilled developers. Our primary objective is to enhance and construct a robust, fail-safe application tailored for independent pharmacies, ensuring superior performance and reliability.",
       projectDate: "Jun 2018 - Present",
       projectImage: "work.png",
